@@ -1,0 +1,1199 @@
+find_executable: checking for pg_config... -------------------- yes
+
+--------------------
+
+append_ldflags: checking for whether -Wl,-rpath,C:/PROGRA~1/POSTGR~1/17/bin is accepted as LDFLAGS... -------------------- yes
+
+PATH=".;C:/Ruby34-x64/lib;C:\Ruby34-x64\bin;C:\Ruby34-x64\msys64\ucrt64\bin;C:\Ruby34-x64\msys64\usr\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\workspace\gradle-8.12\bin;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\Program Files\MySQL\MySQL Server 9.2\bin;C:\Program Files\PostgreSQL\17\bin;C:\Ruby34-x64\bin;C:\Users\Alvaro\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\Alvaro\AppData\Local\Programs\Python\Python312\;C:\Users\Alvaro\AppData\Local\Programs\Python\Launcher\;C:\Users\Alvaro\AppData\Local\Microsoft\WindowsApps;C:\Users\Alvaro\AppData\Local\Programs\Microsoft VS Code\bin;C:\SQLite_Aprendizaje\sqlite-tools-win-x64-3480000;C:\Users\Alvaro\.dotnet\tools;C:\Users\Alvaro\AppData\Roaming\npm" ASAN_OPTIONS=detect_leaks=0 "gcc -o conftest.exe -IC:/Ruby34-x64/include/ruby-3.4.0/x64-mingw-ucrt -IC:/Ruby34-x64/include/ruby-3.4.0/ruby/backward -IC:/Ruby34-x64/include/ruby-3.4.0 -I. -IC:/PROGRA~1/POSTGR~1/17/include -D_WIN32_WINNT=0x0600 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64  -O3 -fstack-protector-strong conftest.c -L. -LC:/Ruby34-x64/lib -LC:/PROGRA~1/POSTGR~1/17/lib -L. -pipe -s -fstack-protector-strong -Wl,--no-as-needed     -lx64-ucrt-ruby340  -lshell32 -lws2_32 -liphlpapi -limagehlp -lshlwapi -lbcrypt  "
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <winsock2.h>
+4: #include <windows.h>
+5: int main(int argc, char **argv)
+6: {
+7:   return !!argv[argc];
+8: }
+/* end */
+
+PATH=".;C:/Ruby34-x64/lib;C:\Ruby34-x64\bin;C:\Ruby34-x64\msys64\ucrt64\bin;C:\Ruby34-x64\msys64\usr\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\workspace\gradle-8.12\bin;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\Program Files\MySQL\MySQL Server 9.2\bin;C:\Program Files\PostgreSQL\17\bin;C:\Ruby34-x64\bin;C:\Users\Alvaro\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\Alvaro\AppData\Local\Programs\Python\Python312\;C:\Users\Alvaro\AppData\Local\Programs\Python\Launcher\;C:\Users\Alvaro\AppData\Local\Microsoft\WindowsApps;C:\Users\Alvaro\AppData\Local\Programs\Microsoft VS Code\bin;C:\SQLite_Aprendizaje\sqlite-tools-win-x64-3480000;C:\Users\Alvaro\.dotnet\tools;C:\Users\Alvaro\AppData\Roaming\npm" ASAN_OPTIONS=detect_leaks=0 "gcc -o conftest.exe -IC:/Ruby34-x64/include/ruby-3.4.0/x64-mingw-ucrt -IC:/Ruby34-x64/include/ruby-3.4.0/ruby/backward -IC:/Ruby34-x64/include/ruby-3.4.0 -I. -IC:/PROGRA~1/POSTGR~1/17/include -D_WIN32_WINNT=0x0600 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64  -O3 -fstack-protector-strong conftest.c -L. -LC:/Ruby34-x64/lib -LC:/PROGRA~1/POSTGR~1/17/lib -L. -pipe -s -fstack-protector-strong -Wl,--no-as-needed -Wl,-rpath,C:/PROGRA~1/POSTGR~1/17/bin    -lx64-ucrt-ruby340  -lshell32 -lws2_32 -liphlpapi -limagehlp -lshlwapi -lbcrypt  "
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <winsock2.h>
+4: #include <windows.h>
+5: int main(int argc, char **argv)
+6: {
+7:   return !!argv[argc];
+8: }
+/* end */
+
+--------------------
+
+find_header: checking for libpq-fe.h... -------------------- yes
+
+PATH=".;C:/Ruby34-x64/lib;C:\Ruby34-x64\bin;C:\Ruby34-x64\msys64\ucrt64\bin;C:\Ruby34-x64\msys64\usr\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\workspace\gradle-8.12\bin;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\Program Files\MySQL\MySQL Server 9.2\bin;C:\Program Files\PostgreSQL\17\bin;C:\Ruby34-x64\bin;C:\Users\Alvaro\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\Alvaro\AppData\Local\Programs\Python\Python312\;C:\Users\Alvaro\AppData\Local\Programs\Python\Launcher\;C:\Users\Alvaro\AppData\Local\Microsoft\WindowsApps;C:\Users\Alvaro\AppData\Local\Programs\Microsoft VS Code\bin;C:\SQLite_Aprendizaje\sqlite-tools-win-x64-3480000;C:\Users\Alvaro\.dotnet\tools;C:\Users\Alvaro\AppData\Roaming\npm" ASAN_OPTIONS=detect_leaks=0 "gcc -IC:/Ruby34-x64/include/ruby-3.4.0/x64-mingw-ucrt -IC:/Ruby34-x64/include/ruby-3.4.0/ruby/backward -IC:/Ruby34-x64/include/ruby-3.4.0 -I. -IC:/PROGRA~1/POSTGR~1/17/include -D_WIN32_WINNT=0x0600 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64  -O3 -fstack-protector-strong   -c conftest.c"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <winsock2.h>
+4: #include <windows.h>
+5: #include <libpq-fe.h>
+/* end */
+
+--------------------
+
+find_header: checking for libpq/libpq-fs.h... -------------------- yes
+
+PATH=".;C:/Ruby34-x64/lib;C:\Ruby34-x64\bin;C:\Ruby34-x64\msys64\ucrt64\bin;C:\Ruby34-x64\msys64\usr\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\workspace\gradle-8.12\bin;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\Program Files\MySQL\MySQL Server 9.2\bin;C:\Program Files\PostgreSQL\17\bin;C:\Ruby34-x64\bin;C:\Users\Alvaro\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\Alvaro\AppData\Local\Programs\Python\Python312\;C:\Users\Alvaro\AppData\Local\Programs\Python\Launcher\;C:\Users\Alvaro\AppData\Local\Microsoft\WindowsApps;C:\Users\Alvaro\AppData\Local\Programs\Microsoft VS Code\bin;C:\SQLite_Aprendizaje\sqlite-tools-win-x64-3480000;C:\Users\Alvaro\.dotnet\tools;C:\Users\Alvaro\AppData\Roaming\npm" ASAN_OPTIONS=detect_leaks=0 "gcc -IC:/Ruby34-x64/include/ruby-3.4.0/x64-mingw-ucrt -IC:/Ruby34-x64/include/ruby-3.4.0/ruby/backward -IC:/Ruby34-x64/include/ruby-3.4.0 -I. -IC:/PROGRA~1/POSTGR~1/17/include -D_WIN32_WINNT=0x0600 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64  -O3 -fstack-protector-strong   -c conftest.c"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <winsock2.h>
+4: #include <windows.h>
+5: #include <libpq/libpq-fs.h>
+/* end */
+
+--------------------
+
+find_header: checking for pg_config_manual.h... -------------------- yes
+
+PATH=".;C:/Ruby34-x64/lib;C:\Ruby34-x64\bin;C:\Ruby34-x64\msys64\ucrt64\bin;C:\Ruby34-x64\msys64\usr\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\workspace\gradle-8.12\bin;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\Program Files\MySQL\MySQL Server 9.2\bin;C:\Program Files\PostgreSQL\17\bin;C:\Ruby34-x64\bin;C:\Users\Alvaro\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\Alvaro\AppData\Local\Programs\Python\Python312\;C:\Users\Alvaro\AppData\Local\Programs\Python\Launcher\;C:\Users\Alvaro\AppData\Local\Microsoft\WindowsApps;C:\Users\Alvaro\AppData\Local\Programs\Microsoft VS Code\bin;C:\SQLite_Aprendizaje\sqlite-tools-win-x64-3480000;C:\Users\Alvaro\.dotnet\tools;C:\Users\Alvaro\AppData\Roaming\npm" ASAN_OPTIONS=detect_leaks=0 "gcc -IC:/Ruby34-x64/include/ruby-3.4.0/x64-mingw-ucrt -IC:/Ruby34-x64/include/ruby-3.4.0/ruby/backward -IC:/Ruby34-x64/include/ruby-3.4.0 -I. -IC:/PROGRA~1/POSTGR~1/17/include -D_WIN32_WINNT=0x0600 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64  -O3 -fstack-protector-strong   -c conftest.c"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <winsock2.h>
+4: #include <windows.h>
+5: #include <pg_config_manual.h>
+/* end */
+
+--------------------
+
+have_library: checking for PQconnectdb() in -lpq... -------------------- no
+
+PATH=".;C:/Ruby34-x64/lib;C:\Ruby34-x64\bin;C:\Ruby34-x64\msys64\ucrt64\bin;C:\Ruby34-x64\msys64\usr\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\workspace\gradle-8.12\bin;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\Program Files\MySQL\MySQL Server 9.2\bin;C:\Program Files\PostgreSQL\17\bin;C:\Ruby34-x64\bin;C:\Users\Alvaro\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\Alvaro\AppData\Local\Programs\Python\Python312\;C:\Users\Alvaro\AppData\Local\Programs\Python\Launcher\;C:\Users\Alvaro\AppData\Local\Microsoft\WindowsApps;C:\Users\Alvaro\AppData\Local\Programs\Microsoft VS Code\bin;C:\SQLite_Aprendizaje\sqlite-tools-win-x64-3480000;C:\Users\Alvaro\.dotnet\tools;C:\Users\Alvaro\AppData\Roaming\npm" ASAN_OPTIONS=detect_leaks=0 "gcc -o conftest.exe -IC:/Ruby34-x64/include/ruby-3.4.0/x64-mingw-ucrt -IC:/Ruby34-x64/include/ruby-3.4.0/ruby/backward -IC:/Ruby34-x64/include/ruby-3.4.0 -I. -IC:/PROGRA~1/POSTGR~1/17/include -D_WIN32_WINNT=0x0600 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64  -O3 -fstack-protector-strong conftest.c -L. -LC:/Ruby34-x64/lib -LC:/PROGRA~1/POSTGR~1/17/lib -L. -pipe -s -fstack-protector-strong -Wl,--no-as-needed -Wl,-rpath,C:/PROGRA~1/POSTGR~1/17/bin     -lx64-ucrt-ruby340 -lpq  -lshell32 -lws2_32 -liphlpapi -limagehlp -lshlwapi -lbcrypt  "
+Warning: corrupt .drectve at end of def file
+Warning: corrupt .drectve at end of def file
+Warning: corrupt .drectve at end of def file
+Warning: corrupt .drectve at end of def file
+Warning: corrupt .drectve at end of def file
+Warning: corrupt .drectve at end of def file
+Warning: corrupt .drectve at end of def file
+Warning: corrupt .drectve at end of def file
+Warning: corrupt .drectve at end of def file
+Warning: corrupt .drectve at end of def file
+Warning: corrupt .drectve at end of def file
+Warning: corrupt .drectve at end of def file
+Warning: corrupt .drectve at end of def file
+Warning: corrupt .drectve at end of def file
+Warning: corrupt .drectve at end of def file
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-connect.c.obj):(.text$mn+0x40): undefined reference to `__security_cookie'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-connect.c.obj):(.text$mn+0x2ab): undefined reference to `pg_snprintf'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-connect.c.obj):(.text$mn+0x2ec): undefined reference to `pg_snprintf'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-connect.c.obj):(.text$mn+0x350): undefined reference to `pg_getaddrinfo_all'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-connect.c.obj):(.text$mn+0x369): undefined reference to `gai_strerror'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-connect.c.obj):(.text$mn+0x3be): undefined reference to `pg_getaddrinfo_all'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-connect.c.obj):(.text$mn+0x3d3): undefined reference to `gai_strerror'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-connect.c.obj):(.text$mn+0x414): undefined reference to `pg_getaddrinfo_all'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-connect.c.obj):(.text$mn+0x4e1): undefined reference to `pg_freeaddrinfo_all'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-connect.c.obj):(.text$mn+0x51d): undefined reference to `pg_prng_uint64_range'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-connect.c.obj):(.text$mn+0x629): undefined reference to `gai_strerror'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-connect.c.obj):(.text$mn+0x8cf): undefined reference to `pg_inet_net_ntop'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-connect.c.obj):(.text$mn+0x9c7): undefined reference to `pg_set_noblock'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-connect.c.obj):(.text$mn+0x1541): undefined reference to `pg_freeaddrinfo_all'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-connect.c.obj):(.text$mn+0x1649): undefined reference to `getpeereid'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-connect.c.obj):(.text$mn+0x168d): undefined reference to `pg_strerror_r'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-connect.c.obj):(.text$mn+0x1bb6): undefined reference to `__security_check_cookie'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-connect.c.obj):(.text$mn+0xc): undefined reference to `__security_cookie'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-connect.c.obj):(.text$mn+0x69): undefined reference to `pg_get_encoding_from_locale'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-connect.c.obj):(.text$mn+0x70): undefined reference to `pg_encoding_to_char'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-connect.c.obj):(.text$mn+0xa4): undefined reference to `pg_sprintf'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-connect.c.obj):(.text$mn+0xe0): undefined reference to `__security_check_cookie'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-connect.c.obj):(.text$mn+0xc): undefined reference to `__security_cookie'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-connect.c.obj):(.text$mn+0x76): undefined reference to `__security_check_cookie'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-connect.c.obj):(.text$mn+0xc): undefined reference to `__security_cookie'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-connect.c.obj):(.text$mn+0x8e): undefined reference to `__security_check_cookie'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-connect.c.obj):(.text$mn+0x27): undefined reference to `pg_fprintf'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-connect.c.obj):(.text$mn+0xd): undefined reference to `__security_cookie'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-connect.c.obj):(.text$mn+0x56): undefined reference to `pg_getnameinfo_all'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-connect.c.obj):(.text$mn+0x15c): undefined reference to `__security_check_cookie'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-connect.c.obj):(.text$mn+0xfa): undefined reference to `explicit_bzero'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-connect.c.obj):(.text$mn+0x1ca): undefined reference to `explicit_bzero'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-connect.c.obj):(.text$mn+0x26d): undefined reference to `explicit_bzero'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-connect.c.obj):(.text$mn+0x51): undefined reference to `pg_inet_net_ntop'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-connect.c.obj):(.text$mn+0x7f): undefined reference to `pg_strncasecmp'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-connect.c.obj):(.text$mn+0x252): undefined reference to `pg_strcasecmp'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-connect.c.obj):(.text$mn+0x27d): undefined reference to `pg_strcasecmp'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-connect.c.obj):(.text$mn+0x297): undefined reference to `pg_strcasecmp'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-connect.c.obj):(.text$mn+0x2b0): undefined reference to `__imp_ldap_init'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-connect.c.obj):(.text$mn+0x2ed): undefined reference to `__imp_ldap_connect'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-connect.c.obj):(.text$mn+0x303): undefined reference to `__imp_ldap_unbind'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-connect.c.obj):(.text$mn+0x350): undefined reference to `__imp_ldap_search_st'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-connect.c.obj):(.text$mn+0x369): undefined reference to `__imp_ldap_msgfree'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-connect.c.obj):(.text$mn+0x371): undefined reference to `__imp_ldap_err2string'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-connect.c.obj):(.text$mn+0x39e): undefined reference to `__imp_ldap_count_entries'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-connect.c.obj):(.text$mn+0x3c8): undefined reference to `__imp_ldap_first_entry'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-connect.c.obj):(.text$mn+0x3e7): undefined reference to `__imp_ldap_get_values_len'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-connect.c.obj):(.text$mn+0x411): undefined reference to `__imp_ldap_msgfree'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-connect.c.obj):(.text$mn+0x41a): undefined reference to `__imp_ldap_unbind'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-connect.c.obj):(.text$mn+0x463): undefined reference to `__imp_ldap_msgfree'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-connect.c.obj):(.text$mn+0x491): undefined reference to `__imp_ldap_value_free_len'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-connect.c.obj):(.text$mn+0x49a): undefined reference to `__imp_ldap_unbind'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-connect.c.obj):(.text$mn+0x4ed): undefined reference to `__imp_ldap_value_free_len'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-connect.c.obj):(.text$mn+0x4f6): undefined reference to `__imp_ldap_unbind'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-connect.c.obj):(.text$mn+0x555): undefined reference to `__imp_ldap_value_free_len'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-connect.c.obj):(.text$mn+0x55e): undefined reference to `__imp_ldap_unbind'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-connect.c.obj):(.text$mn+0x23): undefined reference to `pg_strong_random'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-connect.c.obj):(.text$mn+0x33): undefined reference to `pg_prng_seed_check'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-connect.c.obj):(.text$mn+0x6b): undefined reference to `pg_prng_seed'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-connect.c.obj):(.text$mn+0x16): undefined reference to `__security_cookie'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-connect.c.obj):(.text$mn+0x4e): undefined reference to `pgwin32_fopen'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-connect.c.obj):(.text$mn+0x34d): undefined reference to `__security_check_cookie'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-connect.c.obj):(.text$mn+0x15): undefined reference to `__security_cookie'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-connect.c.obj):(.text$mn+0xba): undefined reference to `strlcpy'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-connect.c.obj):(.text$mn+0x114): undefined reference to `pg_snprintf'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-connect.c.obj):(.text$mn+0x141): undefined reference to `pg_snprintf'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-connect.c.obj):(.text$mn+0x153): undefined reference to `_pgstat64'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-connect.c.obj):(.text$mn+0x1ce): undefined reference to `pg_snprintf'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-connect.c.obj):(.text$mn+0x1e0): undefined reference to `_pgstat64'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-connect.c.obj):(.text$mn+0x239): undefined reference to `__security_check_cookie'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-connect.c.obj):(.text$mn+0x1c): undefined reference to `__security_cookie'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-connect.c.obj):(.text$mn+0x9c): undefined reference to `_pgstat64'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-connect.c.obj):(.text$mn+0xb3): undefined reference to `pgwin32_fopen'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-connect.c.obj):(.text$mn+0x183): undefined reference to `pg_strip_crlf'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-connect.c.obj):(.text$mn+0x390): undefined reference to `explicit_bzero'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-connect.c.obj):(.text$mn+0x3a9): undefined reference to `__security_check_cookie'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-connect.c.obj):(.text$mn+0x3e6): undefined reference to `explicit_bzero'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-connect.c.obj):(.text$mn+0x18): undefined reference to `pg_link_canary_is_frontend'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-connect.c.obj):(.text$mn+0xd): undefined reference to `__security_cookie'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-connect.c.obj):(.text$mn+0x5ec): undefined reference to `pg_snprintf'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-connect.c.obj):(.text$mn+0x636): undefined reference to `pg_snprintf'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-connect.c.obj):(.text$mn+0xc60): undefined reference to `pg_strcasecmp'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-connect.c.obj):(.text$mn+0xc73): undefined reference to `pg_strcasecmp'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-connect.c.obj):(.text$mn+0xc86): undefined reference to `pg_strcasecmp'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-connect.c.obj):(.text$mn+0xc99): undefined reference to `pg_strcasecmp'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-connect.c.obj):(.text$mn+0xcf9): undefined reference to `pg_strcasecmp'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-connect.c.obj):(.text$mn+0xd0c): more undefined references to `pg_strcasecmp' follow
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-connect.c.obj):(.text$mn+0x111f): undefined reference to `pg_strong_random'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-connect.c.obj):(.text$mn+0x112f): undefined reference to `pg_prng_seed_check'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-connect.c.obj):(.text$mn+0x1167): undefined reference to `pg_prng_seed'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-connect.c.obj):(.text$mn+0x118e): undefined reference to `pg_prng_uint64_range'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-connect.c.obj):(.text$mn+0x1260): undefined reference to `pg_get_encoding_from_locale'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-connect.c.obj):(.text$mn+0x1267): undefined reference to `pg_encoding_to_char'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-connect.c.obj):(.text$mn+0x12df): undefined reference to `__security_check_cookie'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-connect.c.obj):(.text$mn+0xed): undefined reference to `__imp_FreeCredentialsHandle'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-connect.c.obj):(.text$mn+0x113): undefined reference to `__imp_DeleteSecurityContext'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-connect.c.obj):(.text$mn+0x10): undefined reference to `__security_cookie'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-connect.c.obj):(.text$mn+0x6f): undefined reference to `pg_snprintf'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-connect.c.obj):(.text$mn+0x81): undefined reference to `__security_check_cookie'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-connect.c.obj):(.text$mn+0xc): undefined reference to `__security_cookie'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-connect.c.obj):(.text$mn+0x1b2): undefined reference to `__security_check_cookie'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-connect.c.obj):(.text$mn+0x8a): undefined reference to `explicit_bzero'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-connect.c.obj):(.text$mn+0xb): undefined reference to `__security_cookie'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-connect.c.obj):(.text$mn+0x86): undefined reference to `__security_check_cookie'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-connect.c.obj):(.text$mn+0x15): undefined reference to `__security_cookie'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-connect.c.obj):(.text$mn+0x19b): undefined reference to `__security_check_cookie'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-connect.c.obj):(.text$mn+0x49): undefined reference to `pg_strcasecmp'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-connect.c.obj):(.text$mn+0x5c): undefined reference to `pg_strcasecmp'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-connect.c.obj):(.text$mn+0x6b): undefined reference to `pg_strcasecmp'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-connect.c.obj):(.text$mn+0x2b): undefined reference to `pg_strcasecmp'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-connect.c.obj):(.text$mn+0x3e): undefined reference to `pg_strcasecmp'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-connect.c.obj):(.text$mn+0x51): more undefined references to `pg_strcasecmp' follow
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-connect.c.obj):(.xdata[$unwind$PQconnectPoll]+0x34): undefined reference to `__GSHandlerCheck'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-connect.c.obj):(.xdata[$unwind$PQsetClientEncoding]+0xc): undefined reference to `__GSHandlerCheck'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-connect.c.obj):(.xdata[$unwind$pqConnectOptions2]+0x24): undefined reference to `__GSHandlerCheck'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-connect.c.obj):(.xdata[$unwind$pqMakeEmptyPGconn]+0xc): undefined reference to `__GSHandlerCheck'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-connect.c.obj):(.xdata[$unwind$pqGetHomeDirectory]+0x10): undefined reference to `__GSHandlerCheck'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-connect.c.obj):(.xdata[$unwind$parseServiceInfo]+0x14): more undefined references to `__GSHandlerCheck' follow
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-cancel.c.obj):(.text$mn+0xd): undefined reference to `__security_cookie'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-cancel.c.obj):(.text$mn+0x3e): undefined reference to `strlcpy'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-cancel.c.obj):(.text$mn+0x11b): undefined reference to `strlcpy'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-cancel.c.obj):(.text$mn+0x22d): undefined reference to `__security_check_cookie'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-cancel.c.obj):(.text$mn+0x3b): undefined reference to `strlcpy'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-cancel.c.obj):(.text$mn+0x218): undefined reference to `strlcpy'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-cancel.c.obj):(.xdata[$unwind$PQcancel]+0x10): undefined reference to `__GSHandlerCheck'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-auth.c.obj):(.text$mn+0x5e): undefined reference to `pg_md5_encrypt'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-auth.c.obj):(.text$mn+0x11): undefined reference to `__security_cookie'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-auth.c.obj):(.text$mn+0x234): undefined reference to `pg_md5_encrypt'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-auth.c.obj):(.text$mn+0x298): undefined reference to `__security_check_cookie'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-auth.c.obj):(.text$mn+0x18): undefined reference to `__security_cookie'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-auth.c.obj):(.text$mn+0x160): undefined reference to `InitializeSecurityContextA'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-auth.c.obj):(.text$mn+0x231): undefined reference to `FreeContextBuffer'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-auth.c.obj):(.text$mn+0x241): undefined reference to `FreeContextBuffer'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-auth.c.obj):(.text$mn+0x25e): undefined reference to `__security_check_cookie'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-auth.c.obj):(.text$mn+0xe): undefined reference to `__security_cookie'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-auth.c.obj):(.text$mn+0x91): undefined reference to `__security_check_cookie'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-auth.c.obj):(.text$mn+0xb7): undefined reference to `AcquireCredentialsHandleA'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-auth.c.obj):(.text$mn+0x157): undefined reference to `pg_sprintf'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-auth.c.obj):(.text$mn+0xc): undefined reference to `__security_cookie'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-auth.c.obj):(.text$mn+0xa1): undefined reference to `__security_check_cookie'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-auth.c.obj):(.text$mn+0xc): undefined reference to `__security_cookie'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-auth.c.obj):(.text$mn+0xa1): undefined reference to `__security_check_cookie'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-auth.c.obj):(.text$mn+0x341): undefined reference to `pg_md5_encrypt'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-auth.c.obj):(.text$mn+0x385): undefined reference to `pg_md5_encrypt'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-auth.c.obj):(.text$mn+0x9c): undefined reference to `pg_md5_encrypt'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-auth.c.obj):(.text$mn+0xd7): undefined reference to `pg_md5_encrypt'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-auth.c.obj):(.xdata[$unwind$PQencryptPasswordConn]+0x14): undefined reference to `__GSHandlerCheck'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-auth.c.obj):(.xdata[$unwind$pg_fe_getusername]+0xc): undefined reference to `__GSHandlerCheck'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-auth.c.obj):(.xdata[$unwind$pg_fe_getauthname]+0xc): undefined reference to `__GSHandlerCheck'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-auth.c.obj):(.xdata[$unwind$pg_SSPI_error]+0x10): undefined reference to `__GSHandlerCheck'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-auth.c.obj):(.xdata[$unwind$pg_SSPI_continue]+0x18): undefined reference to `__GSHandlerCheck'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-auth-scram.c.obj):(.text$mn+0x6d): undefined reference to `pg_saslprep'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-auth-scram.c.obj):(.text$mn+0x17): undefined reference to `__security_cookie'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-auth-scram.c.obj):(.text$mn+0x15a): undefined reference to `pg_b64_dec_len'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-auth-scram.c.obj):(.text$mn+0x18c): undefined reference to `pg_b64_decode'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-auth-scram.c.obj):(.text$mn+0x29d): undefined reference to `pg_strong_random'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-auth-scram.c.obj):(.text$mn+0x2b7): undefined reference to `pg_b64_enc_len'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-auth-scram.c.obj):(.text$mn+0x2e6): undefined reference to `pg_b64_encode'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-auth-scram.c.obj):(.text$mn+0x404): undefined reference to `__security_check_cookie'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-auth-scram.c.obj):(.text$mn+0x1c): undefined reference to `__security_cookie'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-auth-scram.c.obj):(.text$mn+0xc9): undefined reference to `__security_check_cookie'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-auth-scram.c.obj):(.text$mn+0x111): undefined reference to `pg_b64_enc_len'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-auth-scram.c.obj):(.text$mn+0x14b): undefined reference to `pg_b64_encode'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-auth-scram.c.obj):(.text$mn+0x261): undefined reference to `pg_b64_enc_len'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-auth-scram.c.obj):(.text$mn+0x28f): undefined reference to `pg_b64_encode'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-auth-scram.c.obj):(.text$mn+0xd): undefined reference to `__security_cookie'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-auth-scram.c.obj):(.text$mn+0x2b): undefined reference to `pg_strong_random'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-auth-scram.c.obj):(.text$mn+0x54): undefined reference to `pg_b64_enc_len'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-auth-scram.c.obj):(.text$mn+0x83): undefined reference to `pg_b64_encode'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-auth-scram.c.obj):(.text$mn+0x183): undefined reference to `__security_check_cookie'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-auth-scram.c.obj):(.text$mn+0x12): undefined reference to `__security_cookie'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-auth-scram.c.obj):(.text$mn+0x31): undefined reference to `pg_hmac_create'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-auth-scram.c.obj):(.text$mn+0x40): undefined reference to `pg_hmac_error'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-auth-scram.c.obj):(.text$mn+0x82): undefined reference to `scram_SaltedPassword'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-auth-scram.c.obj):(.text$mn+0xa3): undefined reference to `scram_ClientKey'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-auth-scram.c.obj):(.text$mn+0xc6): undefined reference to `scram_H'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-auth-scram.c.obj):(.text$mn+0xdf): undefined reference to `pg_hmac_init'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-auth-scram.c.obj):(.text$mn+0x10e): undefined reference to `pg_hmac_update'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-auth-scram.c.obj):(.text$mn+0x12b): undefined reference to `pg_hmac_update'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-auth-scram.c.obj):(.text$mn+0x14e): undefined reference to `pg_hmac_update'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-auth-scram.c.obj):(.text$mn+0x16b): undefined reference to `pg_hmac_update'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-auth-scram.c.obj):(.text$mn+0x186): undefined reference to `pg_hmac_update'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-auth-scram.c.obj):(.text$mn+0x19e): undefined reference to `pg_hmac_final'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-auth-scram.c.obj):(.text$mn+0x1cf): undefined reference to `pg_hmac_free'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-auth-scram.c.obj):(.text$mn+0x1db): undefined reference to `pg_hmac_error'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-auth-scram.c.obj):(.text$mn+0x1e6): undefined reference to `pg_hmac_free'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-auth-scram.c.obj):(.text$mn+0x200): undefined reference to `__security_check_cookie'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-auth-scram.c.obj):(.text$mn+0xb): undefined reference to `__security_cookie'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-auth-scram.c.obj):(.text$mn+0x25): undefined reference to `pg_saslprep'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-auth-scram.c.obj):(.text$mn+0x54): undefined reference to `pg_strong_random'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-auth-scram.c.obj):(.text$mn+0x9e): undefined reference to `scram_build_secret'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-auth-scram.c.obj):(.text$mn+0xbc): undefined reference to `__security_check_cookie'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-auth-scram.c.obj):(.text$mn+0xba): undefined reference to `pg_b64_dec_len'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-auth-scram.c.obj):(.text$mn+0xe8): undefined reference to `pg_b64_decode'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-auth-scram.c.obj):(.text$mn+0xe1): undefined reference to `pg_b64_dec_len'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-auth-scram.c.obj):(.text$mn+0x116): undefined reference to `pg_b64_decode'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-auth-scram.c.obj):(.text$mn+0x11): undefined reference to `__security_cookie'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-auth-scram.c.obj):(.text$mn+0x2a): undefined reference to `pg_hmac_create'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-auth-scram.c.obj):(.text$mn+0x39): undefined reference to `pg_hmac_error'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-auth-scram.c.obj):(.text$mn+0x5d): undefined reference to `scram_ServerKey'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-auth-scram.c.obj):(.text$mn+0x69): undefined reference to `pg_hmac_free'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-auth-scram.c.obj):(.text$mn+0x86): undefined reference to `pg_hmac_init'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-auth-scram.c.obj):(.text$mn+0xae): undefined reference to `pg_hmac_update'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-auth-scram.c.obj):(.text$mn+0xcb): undefined reference to `pg_hmac_update'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-auth-scram.c.obj):(.text$mn+0xee): undefined reference to `pg_hmac_update'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-auth-scram.c.obj):(.text$mn+0x107): undefined reference to `pg_hmac_update'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-auth-scram.c.obj):(.text$mn+0x123): undefined reference to `pg_hmac_update'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-auth-scram.c.obj):(.text$mn+0x138): undefined reference to `pg_hmac_final'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-auth-scram.c.obj):(.text$mn+0x144): undefined reference to `pg_hmac_free'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-auth-scram.c.obj):(.text$mn+0x16d): undefined reference to `pg_hmac_error'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-auth-scram.c.obj):(.text$mn+0x178): undefined reference to `pg_hmac_free'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-auth-scram.c.obj):(.text$mn+0x18f): undefined reference to `__security_check_cookie'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-auth-scram.c.obj):(.xdata[$unwind$pg_fe_scram_build_secret]+0xc): undefined reference to `__GSHandlerCheck'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-auth-scram.c.obj):(.xdata[$unwind$scram_exchange]+0x18): undefined reference to `__GSHandlerCheck'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-auth-scram.c.obj):(.xdata[$unwind$build_client_first_message]+0xc): undefined reference to `__GSHandlerCheck'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-auth-scram.c.obj):(.xdata[$unwind$build_client_final_message]+0x18): undefined reference to `__GSHandlerCheck'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-auth-scram.c.obj):(.xdata[$unwind$verify_server_signature]+0x10): undefined reference to `__GSHandlerCheck'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-auth-scram.c.obj):(.xdata[$unwind$calculate_client_proof]+0x14): more undefined references to `__GSHandlerCheck' follow
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x77): undefined reference to `pg_fprintf'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0xb1): undefined reference to `SSL_get_current_cipher'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0xbe): undefined reference to `SSL_CIPHER_get_bits'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0xdb): undefined reference to `pg_snprintf'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x117): undefined reference to `SSL_get_current_cipher'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x12e): undefined reference to `SSL_CIPHER_get_name'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x149): undefined reference to `SSL_get_current_compression'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x19b): undefined reference to `SSL_get_version'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x1d1): undefined reference to `SSL_get0_alpn_selected'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x24b): undefined reference to `__report_rangecheckfailure'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x97): undefined reference to `pg_fprintf'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x4d): undefined reference to `pg_snprintf'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x62): undefined reference to `ERR_reason_error_string'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x78): undefined reference to `strlcpy'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0xc7): undefined reference to `pg_strerror_r'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0xf4): undefined reference to `pg_snprintf'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x11): undefined reference to `SSL_get_certificate'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x19): undefined reference to `__security_cookie'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x114): undefined reference to `TLS_method'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x11c): undefined reference to `SSL_CTX_new'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x129): undefined reference to `ERR_get_error'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x18b): undefined reference to `SSL_CTX_set_default_passwd_cb'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x196): undefined reference to `SSL_CTX_set_default_passwd_cb_userdata'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x1a8): undefined reference to `SSL_CTX_set_cert_cb'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x1b5): undefined reference to `SSL_CTX_set_options'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x212): undefined reference to `SSL_CTX_ctrl'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x21b): undefined reference to `ERR_get_error'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x287): undefined reference to `SSL_CTX_ctrl'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x290): undefined reference to `ERR_get_error'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x2b9): undefined reference to `SSL_CTX_ctrl'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x2ea): undefined reference to `strlcpy'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x31a): undefined reference to `pg_snprintf'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x358): undefined reference to `SSL_CTX_set_default_verify_paths'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x366): undefined reference to `ERR_get_error'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x393): undefined reference to `_pgstat64'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x3ab): undefined reference to `SSL_CTX_load_verify_locations'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x3b5): undefined reference to `ERR_get_error'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x3e3): undefined reference to `SSL_CTX_get_cert_store'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x477): undefined reference to `pg_snprintf'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x48a): undefined reference to `X509_STORE_load_locations'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x49c): undefined reference to `X509_STORE_set_flags'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x4a1): undefined reference to `ERR_clear_error'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x51a): undefined reference to `strlcpy'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x54a): undefined reference to `pg_snprintf'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x583): undefined reference to `_pgstat64'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x5b7): undefined reference to `pg_strerror_r'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x5e0): undefined reference to `SSL_CTX_use_certificate_chain_file'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x5ea): undefined reference to `ERR_get_error'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x61b): undefined reference to `SSL_new'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x638): undefined reference to `SSL_set_ex_data'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x665): undefined reference to `SSL_CTX_free'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x6f5): undefined reference to `SSL_ctrl'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x6ff): undefined reference to `ERR_get_error'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x740): undefined reference to `SSL_set_alpn_protos'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x749): undefined reference to `ERR_get_error'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x805): undefined reference to `ENGINE_by_id'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x816): undefined reference to `ERR_get_error'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x860): undefined reference to `ENGINE_init'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x869): undefined reference to `ERR_get_error'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x8a9): undefined reference to `ENGINE_free'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x8d7): undefined reference to `ENGINE_load_private_key'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x8e1): undefined reference to `ERR_get_error'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x926): undefined reference to `ENGINE_finish'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x93a): undefined reference to `SSL_use_PrivateKey'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x944): undefined reference to `ERR_get_error'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x97b): undefined reference to `strlcpy'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x9ab): undefined reference to `pg_snprintf'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x9dc): undefined reference to `_pgstat64'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0xa54): undefined reference to `SSL_use_PrivateKey_file'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0xa5e): undefined reference to `ERR_get_error'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0xa7f): undefined reference to `SSL_use_PrivateKey_file'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0xaaa): undefined reference to `SSL_check_private_key'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0xab4): undefined reference to `ERR_get_error'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0xb09): undefined reference to `SSL_set_verify'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0xb2b): undefined reference to `SSL_set_options'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0xb40): undefined reference to `SSL_clear_options'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0xb49): undefined reference to `ERR_get_error'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0xb82): undefined reference to `SSL_CTX_free'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0xbae): undefined reference to `__security_check_cookie'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0xa): undefined reference to `inet_aton'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x36): undefined reference to `BIO_s_socket'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x3e): undefined reference to `BIO_get_new_index'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x5a): undefined reference to `BIO_meth_new'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x75): undefined reference to `BIO_meth_set_write'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x8c): undefined reference to `BIO_meth_set_read'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x9c): undefined reference to `BIO_meth_get_gets'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0xa7): undefined reference to `BIO_meth_set_gets'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0xb3): undefined reference to `BIO_meth_get_puts'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0xbe): undefined reference to `BIO_meth_set_puts'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0xca): undefined reference to `BIO_meth_get_ctrl'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0xd5): undefined reference to `BIO_meth_set_ctrl'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0xe1): undefined reference to `BIO_meth_get_create'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0xec): undefined reference to `BIO_meth_set_create'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0xf8): undefined reference to `BIO_meth_get_destroy'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x103): undefined reference to `BIO_meth_set_destroy'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x10f): undefined reference to `BIO_meth_get_callback_ctrl'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x11a): undefined reference to `BIO_meth_set_callback_ctrl'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x126): undefined reference to `BIO_meth_free'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x3e): undefined reference to `BIO_s_socket'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x46): undefined reference to `BIO_get_new_index'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x62): undefined reference to `BIO_meth_new'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x7d): undefined reference to `BIO_meth_set_write'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x94): undefined reference to `BIO_meth_set_read'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0xa4): undefined reference to `BIO_meth_get_gets'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0xaf): undefined reference to `BIO_meth_set_gets'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0xbb): undefined reference to `BIO_meth_get_puts'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0xc6): undefined reference to `BIO_meth_set_puts'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0xd2): undefined reference to `BIO_meth_get_ctrl'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0xdd): undefined reference to `BIO_meth_set_ctrl'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0xe9): undefined reference to `BIO_meth_get_create'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0xf4): undefined reference to `BIO_meth_set_create'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x100): undefined reference to `BIO_meth_get_destroy'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x10b): undefined reference to `BIO_meth_set_destroy'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x117): undefined reference to `BIO_meth_get_callback_ctrl'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x122): undefined reference to `BIO_meth_set_callback_ctrl'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x12e): undefined reference to `BIO_meth_free'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x13f): undefined reference to `ERR_new'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x157): undefined reference to `ERR_set_debug'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x169): undefined reference to `ERR_set_error'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x19b): undefined reference to `BIO_new'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x1a8): undefined reference to `ERR_new'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x1bc): undefined reference to `BIO_set_ex_data'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x1ce): undefined reference to `SSL_set_bio'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x1e1): undefined reference to `BIO_int_ctrl'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x20): undefined reference to `BIO_get_ex_data'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x41): undefined reference to `BIO_clear_flags'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x64): undefined reference to `BIO_set_flags'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x1b): undefined reference to `BIO_get_ex_data'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x39): undefined reference to `BIO_clear_flags'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x5c): undefined reference to `BIO_set_flags'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x18): undefined reference to `__security_cookie'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x33): undefined reference to `ERR_clear_error'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x3f): undefined reference to `SSL_connect'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x5f): undefined reference to `SSL_get_error'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x67): undefined reference to `ERR_get_error'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0xb9): undefined reference to `SSL_get_verify_result'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0xfa): undefined reference to `X509_verify_cert_error_string'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x298): undefined reference to `SSL_get0_alpn_selected'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x2e4): undefined reference to `SSL_get1_peer_certificate'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x2f5): undefined reference to `ERR_get_error'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x35b): undefined reference to `__security_check_cookie'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x47): undefined reference to `ASN1_STRING_get0_data'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x52): undefined reference to `ASN1_STRING_length'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x47): undefined reference to `ASN1_STRING_get0_data'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x52): undefined reference to `ASN1_STRING_length'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x26): undefined reference to `SSL_shutdown'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x32): undefined reference to `SSL_free'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x5a): undefined reference to `X509_free'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x76): undefined reference to `ENGINE_finish'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x82): undefined reference to `ENGINE_free'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x15): undefined reference to `__security_cookie'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x53): undefined reference to `X509_get_signature_info'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x80): undefined reference to `OBJ_nid2sn'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x88): undefined reference to `EVP_get_digestbyname'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x96): undefined reference to `OBJ_nid2sn'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0xb1): undefined reference to `EVP_sha256'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0xc6): undefined reference to `X509_digest'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x12e): undefined reference to `__security_check_cookie'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x42): undefined reference to `OPENSSL_init_ssl'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x15): undefined reference to `__security_cookie'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x3f): undefined reference to `ERR_clear_error'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x51): undefined reference to `SSL_read'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x62): undefined reference to `SSL_get_error'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x77): undefined reference to `ERR_get_error'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x1a1): undefined reference to `__security_check_cookie'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0xc): undefined reference to `SSL_pending'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x3f): undefined reference to `inet_aton'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x69): undefined reference to `X509_get_ext_d2i'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x88): undefined reference to `OPENSSL_sk_num'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0xa7): undefined reference to `OPENSSL_sk_value'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0xf5): undefined reference to `ASN1_STRING_get0_data'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x100): undefined reference to `ASN1_STRING_length'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x142): undefined reference to `ASN1_STRING_get0_data'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x14d): undefined reference to `ASN1_STRING_length'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x1a4): undefined reference to `GENERAL_NAME_free'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x1ac): undefined reference to `OPENSSL_sk_pop_free'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x1bd): undefined reference to `X509_get_subject_name'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x1d5): undefined reference to `X509_NAME_get_index_by_NID'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x1ee): undefined reference to `X509_NAME_get_entry'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x1f6): undefined reference to `X509_NAME_ENTRY_get_data'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x21b): undefined reference to `GENERAL_NAME_free'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x220): undefined reference to `OPENSSL_sk_pop_free'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x23f): undefined reference to `ASN1_STRING_get0_data'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x24a): undefined reference to `ASN1_STRING_length'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x12): undefined reference to `__security_cookie'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x35): undefined reference to `ERR_clear_error'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x47): undefined reference to `SSL_write'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x58): undefined reference to `SSL_get_error'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x6d): undefined reference to `ERR_get_error'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x19e): undefined reference to `__security_check_cookie'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x14): undefined reference to `pg_strcasecmp'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x32): undefined reference to `pg_strcasecmp'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x50): undefined reference to `pg_strcasecmp'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.text$mn+0x6e): undefined reference to `pg_strcasecmp'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.xdata[$unwind$pgtls_read]+0x18): undefined reference to `__GSHandlerCheck'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.xdata[$unwind$pgtls_write]+0x14): undefined reference to `__GSHandlerCheck'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.xdata[$unwind$pgtls_get_peer_certificate_hash]+0x14): undefined reference to `__GSHandlerCheck'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.xdata[$unwind$initialize_SSL]+0x10): undefined reference to `__GSHandlerCheck'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-openssl.c.obj):(.xdata[$unwind$open_client_SSL]+0x18): undefined reference to `__GSHandlerCheck'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-common.c.obj):(.text$mn+0x10): undefined reference to `__security_cookie'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-common.c.obj):(.text$mn+0x61): undefined reference to `inet_aton'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-common.c.obj):(.text$mn+0x94): undefined reference to `pg_inet_net_ntop'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-common.c.obj):(.text$mn+0xb1): undefined reference to `pg_strerror_r'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-common.c.obj):(.text$mn+0x10a): undefined reference to `__security_check_cookie'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-common.c.obj):(.text$mn+0xee): undefined reference to `pg_strcasecmp'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-common.c.obj):(.text$mn+0x141): undefined reference to `pg_strcasecmp'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-common.c.obj):(.text$mn+0x56): undefined reference to `pg_strcasecmp'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure-common.c.obj):(.xdata[$unwind$pq_verify_peer_name_matches_certificate_ip]+0x10): undefined reference to `__GSHandlerCheck'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/win32.c.obj):(.text$mn+0x15f): undefined reference to `pg_sprintf'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/pqexpbuffer.c.obj):(.text$mn+0x7d): undefined reference to `pg_vsnprintf'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/pqexpbuffer.c.obj):(.text$mn+0x2e): undefined reference to `pg_vsnprintf'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure.c.obj):(.text$mn+0x12): undefined reference to `__security_cookie'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure.c.obj):(.text$mn+0xc6): undefined reference to `__security_check_cookie'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure.c.obj):(.text$mn+0xe): undefined reference to `__security_cookie'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure.c.obj):(.text$mn+0xbe): undefined reference to `pg_snprintf'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure.c.obj):(.text$mn+0xe5): undefined reference to `pg_snprintf'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure.c.obj):(.text$mn+0xfc): undefined reference to `strlcat'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure.c.obj):(.text$mn+0x134): undefined reference to `__security_check_cookie'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure.c.obj):(.text$mn+0xe): undefined reference to `__security_cookie'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure.c.obj):(.text$mn+0xe5): undefined reference to `__security_check_cookie'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure.c.obj):(.text$mn+0xd): undefined reference to `__security_cookie'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure.c.obj):(.text$mn+0xd4): undefined reference to `pg_snprintf'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure.c.obj):(.text$mn+0xfb): undefined reference to `pg_snprintf'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure.c.obj):(.text$mn+0x112): undefined reference to `strlcat'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure.c.obj):(.text$mn+0x155): undefined reference to `__security_check_cookie'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure.c.obj):(.xdata[$unwind$pqsecure_read]+0x10): undefined reference to `__GSHandlerCheck'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure.c.obj):(.xdata[$unwind$pqsecure_write]+0xc): undefined reference to `__GSHandlerCheck'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure.c.obj):(.xdata[$unwind$pqsecure_raw_read]+0x14): undefined reference to `__GSHandlerCheck'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-secure.c.obj):(.xdata[$unwind$pqsecure_raw_write]+0x10): undefined reference to `__GSHandlerCheck'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-protocol3.c.obj):(.text$mn+0x2f2): undefined reference to `pg_strcasecmp'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-protocol3.c.obj):(.text$mn+0x14c): undefined reference to `pg_strcasecmp'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-protocol3.c.obj):(.text$mn+0xca): undefined reference to `strlcpy'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-protocol3.c.obj):(.text$mn+0x1e4): undefined reference to `strlcpy'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-protocol3.c.obj):(.text$mn+0xce): undefined reference to `pg_encoding_max_length'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-protocol3.c.obj):(.text$mn+0x17e): undefined reference to `pg_encoding_dsplen'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-protocol3.c.obj):(.text$mn+0x31a): undefined reference to `pg_encoding_dsplen'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-misc.c.obj):(.text$mn+0x8): undefined reference to `pg_encoding_dsplen'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-misc.c.obj):(.text$mn+0x22): undefined reference to `pg_char_to_encoding'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-misc.c.obj):(.text$mn+0x8): undefined reference to `pg_encoding_mblen'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-misc.c.obj):(.text$mn+0x11): undefined reference to `pg_encoding_mblen'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-misc.c.obj):(.text$mn+0x10): undefined reference to `__security_cookie'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-misc.c.obj):(.text$mn+0x129): undefined reference to `__security_check_cookie'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-misc.c.obj):(.text$mn+0x63): undefined reference to `libintl_dgettext'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-misc.c.obj):(.text$mn+0x62): undefined reference to `libintl_dgettext'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-misc.c.obj):(.text$mn+0x56): undefined reference to `libintl_bindtextdomain'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-misc.c.obj):(.text$mn+0x1e): undefined reference to `libintl_dgettext'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-misc.c.obj):(.text$mn+0x3d): undefined reference to `libintl_dngettext'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-misc.c.obj):(.text$mn+0xf): undefined reference to `__security_cookie'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-misc.c.obj):(.text$mn+0x475): undefined reference to `__security_check_cookie'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-misc.c.obj):(.text$mn+0xc): undefined reference to `__security_cookie'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-misc.c.obj):(.text$mn+0x12d): undefined reference to `__security_check_cookie'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-misc.c.obj):(.text$mn+0x7f): undefined reference to `libintl_dgettext'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-misc.c.obj):(.text$mn+0x10): undefined reference to `__security_cookie'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-misc.c.obj):(.text$mn+0x203): undefined reference to `__security_check_cookie'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-misc.c.obj):(.text$mn+0xc): undefined reference to `__security_cookie'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-misc.c.obj):(.text$mn+0x11c): undefined reference to `__security_check_cookie'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-misc.c.obj):(.xdata[$unwind$PQsocketPoll]+0x10): undefined reference to `__GSHandlerCheck'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-misc.c.obj):(.xdata[$unwind$pqReadData]+0x10): undefined reference to `__GSHandlerCheck'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-misc.c.obj):(.xdata[$unwind$pqReadReady]+0xc): undefined reference to `__GSHandlerCheck'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-misc.c.obj):(.xdata[$unwind$pqWriteReady]+0xc): undefined reference to `__GSHandlerCheck'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-misc.c.obj):(.xdata[$unwind$pqSocketCheck]+0x10): undefined reference to `__GSHandlerCheck'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-exec.c.obj):(.text$mn+0xba): undefined reference to `pg_encoding_mblen'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-exec.c.obj):(.text$mn+0xe0): undefined reference to `pg_encoding_verifymbstr'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-exec.c.obj):(.text$mn+0x220): undefined reference to `pg_encoding_mblen'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-exec.c.obj):(.text$mn+0xa2): undefined reference to `pg_encoding_mblen'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-exec.c.obj):(.text$mn+0xbc): undefined reference to `pg_encoding_verifymbchar'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-exec.c.obj):(.text$mn+0x1bc): undefined reference to `pg_encoding_set_invalid'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-exec.c.obj):(.text$mn+0x5b): undefined reference to `pg_tolower'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-exec.c.obj):(.text$mn+0x12a): undefined reference to `pg_tolower'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-exec.c.obj):(.text$mn+0x1a): undefined reference to `__security_cookie'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-exec.c.obj):(.text$mn+0x57): undefined reference to `pg_vsnprintf'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-exec.c.obj):(.text$mn+0x243): undefined reference to `pg_sprintf'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-exec.c.obj):(.text$mn+0x282): undefined reference to `__security_check_cookie'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-exec.c.obj):(.text$mn+0x126): undefined reference to `pg_char_to_encoding'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-exec.c.obj):(.text$mn+0x1c4): undefined reference to `sscanf'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-exec.c.obj):(.xdata[$unwind$pqInternalNotice]+0xc): undefined reference to `__GSHandlerCheck'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-trace.c.obj):(.text$mn+0x7c): undefined reference to `pg_snprintf'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-trace.c.obj):(.text$mn+0x40): undefined reference to `pg_fprintf'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-trace.c.obj):(.text$mn+0x29): undefined reference to `pg_fprintf'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-trace.c.obj):(.text$mn+0x25): undefined reference to `pg_fprintf'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-trace.c.obj):(.text$mn+0x3c): undefined reference to `pg_fprintf'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-trace.c.obj):(.text$mn+0x1f): undefined reference to `__security_cookie'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-trace.c.obj):(.text$mn+0xc4): undefined reference to `pg_snprintf'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-trace.c.obj):(.text$mn+0xdb): undefined reference to `pg_fprintf'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-trace.c.obj):(.text$mn+0x12c): undefined reference to `pg_fprintf'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-trace.c.obj):(.text$mn+0x147): undefined reference to `pg_fprintf'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-trace.c.obj):(.text$mn+0x187): undefined reference to `pg_fprintf'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-trace.c.obj):(.text$mn+0x19f): undefined reference to `pg_fprintf'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-trace.c.obj):(.text$mn+0x1b7): more undefined references to `pg_fprintf' follow
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-trace.c.obj):(.text$mn+0xa87): undefined reference to `__security_check_cookie'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-trace.c.obj):(.text$mn+0x32): undefined reference to `pg_fprintf'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-trace.c.obj):(.text$mn+0x73): undefined reference to `pg_fprintf'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-trace.c.obj):(.text$mn+0xa5): undefined reference to `pg_fprintf'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-trace.c.obj):(.text$mn+0xda): undefined reference to `pg_fprintf'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-trace.c.obj):(.text$mn+0x33): undefined reference to `pg_fprintf'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-trace.c.obj):(.text$mn+0x89): more undefined references to `pg_fprintf' follow
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-trace.c.obj):(.text$mn+0x15): undefined reference to `__security_cookie'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-trace.c.obj):(.text$mn+0xa8): undefined reference to `pg_snprintf'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-trace.c.obj):(.text$mn+0xbc): undefined reference to `pg_fprintf'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-trace.c.obj):(.text$mn+0xd2): undefined reference to `pg_fprintf'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-trace.c.obj):(.text$mn+0xe6): undefined reference to `pg_fprintf'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-trace.c.obj):(.text$mn+0xfc): undefined reference to `pg_fprintf'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-trace.c.obj):(.text$mn+0x112): undefined reference to `pg_fprintf'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-trace.c.obj):(.text$mn+0x134): more undefined references to `pg_fprintf' follow
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-trace.c.obj):(.text$mn+0x152): undefined reference to `__security_check_cookie'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-trace.c.obj):(.text$mn+0x1d): undefined reference to `pg_fprintf'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-trace.c.obj):(.text$mn+0x5a): undefined reference to `pg_fprintf'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-trace.c.obj):(.text$mn+0x20): undefined reference to `pg_fprintf'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-trace.c.obj):(.text$mn+0x4e): undefined reference to `pg_fprintf'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-trace.c.obj):(.text$mn+0x29): undefined reference to `pg_fprintf'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-trace.c.obj):(.text$mn+0x49): more undefined references to `pg_fprintf' follow
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-trace.c.obj):(.xdata[$unwind$pqTraceOutputMessage]+0x1c): undefined reference to `__GSHandlerCheck'
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/PROGRA~1/POSTGR~1/17/lib/libpq.a(src/interfaces/libpq/libpq.a.p/fe-trace.c.obj):(.xdata[$unwind$pqTraceOutputNoTypeByteMessage]+0x14): undefined reference to `__GSHandlerCheck'
+collect2.exe: error: ld returned 1 exit status
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: #include <winsock2.h>
+ 4: #include <windows.h>
+ 5: #include <libpq-fe.h>
+ 6: 
+ 7: /*top*/
+ 8: extern int t(void);
+ 9: int main(int argc, char **argv)
+10: {
+11:   if (argc > 1000000) {
+12:     int (* volatile tp)(void)=(int (*)(void))&t;
+13:     printf("%d", (*tp)());
+14:   }
+15: 
+16:   return !!argv[argc];
+17: }
+18: int t(void) { void ((*volatile p)()); p = (void ((*)()))PQconnectdb; return !p; }
+/* end */
+
+PATH=".;C:/Ruby34-x64/lib;C:\Ruby34-x64\bin;C:\Ruby34-x64\msys64\ucrt64\bin;C:\Ruby34-x64\msys64\usr\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\workspace\gradle-8.12\bin;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\Program Files\MySQL\MySQL Server 9.2\bin;C:\Program Files\PostgreSQL\17\bin;C:\Ruby34-x64\bin;C:\Users\Alvaro\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\Alvaro\AppData\Local\Programs\Python\Python312\;C:\Users\Alvaro\AppData\Local\Programs\Python\Launcher\;C:\Users\Alvaro\AppData\Local\Microsoft\WindowsApps;C:\Users\Alvaro\AppData\Local\Programs\Microsoft VS Code\bin;C:\SQLite_Aprendizaje\sqlite-tools-win-x64-3480000;C:\Users\Alvaro\.dotnet\tools;C:\Users\Alvaro\AppData\Roaming\npm" ASAN_OPTIONS=detect_leaks=0 "gcc -o conftest.exe -IC:/Ruby34-x64/include/ruby-3.4.0/x64-mingw-ucrt -IC:/Ruby34-x64/include/ruby-3.4.0/ruby/backward -IC:/Ruby34-x64/include/ruby-3.4.0 -I. -IC:/PROGRA~1/POSTGR~1/17/include -D_WIN32_WINNT=0x0600 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64  -O3 -fstack-protector-strong conftest.c -L. -LC:/Ruby34-x64/lib -LC:/PROGRA~1/POSTGR~1/17/lib -L. -pipe -s -fstack-protector-strong -Wl,--no-as-needed -Wl,-rpath,C:/PROGRA~1/POSTGR~1/17/bin     -lx64-ucrt-ruby340 -lpq  -lshell32 -lws2_32 -liphlpapi -limagehlp -lshlwapi -lbcrypt  "
+conftest.c:18:13: error: conflicting types for 'PQconnectdb'; have 'void()'
+   18 | extern void PQconnectdb();
+      |             ^~~~~~~~~~~
+In file included from conftest.c:5:
+C:/PROGRA~1/POSTGR~1/17/include/libpq-fe.h:315:16: note: previous declaration of 'PQconnectdb' with type 'PGconn *(const char *)' {aka 'struct pg_conn *(const char *)'}
+  315 | extern PGconn *PQconnectdb(const char *conninfo);
+      |                ^~~~~~~~~~~
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: #include <winsock2.h>
+ 4: #include <windows.h>
+ 5: #include <libpq-fe.h>
+ 6: 
+ 7: /*top*/
+ 8: extern int t(void);
+ 9: int main(int argc, char **argv)
+10: {
+11:   if (argc > 1000000) {
+12:     int (* volatile tp)(void)=(int (*)(void))&t;
+13:     printf("%d", (*tp)());
+14:   }
+15: 
+16:   return !!argv[argc];
+17: }
+18: extern void PQconnectdb();
+19: int t(void) { PQconnectdb(); return 0; }
+/* end */
+
+--------------------
+
+have_library: checking for PQconnectdb() in -llibpq... -------------------- yes
+
+PATH=".;C:/Ruby34-x64/lib;C:\Ruby34-x64\bin;C:\Ruby34-x64\msys64\ucrt64\bin;C:\Ruby34-x64\msys64\usr\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\workspace\gradle-8.12\bin;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\Program Files\MySQL\MySQL Server 9.2\bin;C:\Program Files\PostgreSQL\17\bin;C:\Ruby34-x64\bin;C:\Users\Alvaro\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\Alvaro\AppData\Local\Programs\Python\Python312\;C:\Users\Alvaro\AppData\Local\Programs\Python\Launcher\;C:\Users\Alvaro\AppData\Local\Microsoft\WindowsApps;C:\Users\Alvaro\AppData\Local\Programs\Microsoft VS Code\bin;C:\SQLite_Aprendizaje\sqlite-tools-win-x64-3480000;C:\Users\Alvaro\.dotnet\tools;C:\Users\Alvaro\AppData\Roaming\npm" ASAN_OPTIONS=detect_leaks=0 "gcc -o conftest.exe -IC:/Ruby34-x64/include/ruby-3.4.0/x64-mingw-ucrt -IC:/Ruby34-x64/include/ruby-3.4.0/ruby/backward -IC:/Ruby34-x64/include/ruby-3.4.0 -I. -IC:/PROGRA~1/POSTGR~1/17/include -D_WIN32_WINNT=0x0600 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64  -O3 -fstack-protector-strong conftest.c -L. -LC:/Ruby34-x64/lib -LC:/PROGRA~1/POSTGR~1/17/lib -L. -pipe -s -fstack-protector-strong -Wl,--no-as-needed -Wl,-rpath,C:/PROGRA~1/POSTGR~1/17/bin     -lx64-ucrt-ruby340 -llibpq  -lshell32 -lws2_32 -liphlpapi -limagehlp -lshlwapi -lbcrypt  "
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: #include <winsock2.h>
+ 4: #include <windows.h>
+ 5: #include <libpq-fe.h>
+ 6: 
+ 7: /*top*/
+ 8: extern int t(void);
+ 9: int main(int argc, char **argv)
+10: {
+11:   if (argc > 1000000) {
+12:     int (* volatile tp)(void)=(int (*)(void))&t;
+13:     printf("%d", (*tp)());
+14:   }
+15: 
+16:   return !!argv[argc];
+17: }
+18: int t(void) { void ((*volatile p)()); p = (void ((*)()))PQconnectdb; return !p; }
+/* end */
+
+--------------------
+
+yes
+checking for workaround gcc version with link issue... -------------------- yes
+
+checking for -l:libpq.lib... have_library: checking for -l:libpq.lib... -------------------- yes
+
+PATH=".;C:/Ruby34-x64/lib;C:\Ruby34-x64\bin;C:\Ruby34-x64\msys64\ucrt64\bin;C:\Ruby34-x64\msys64\usr\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\workspace\gradle-8.12\bin;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\Program Files\MySQL\MySQL Server 9.2\bin;C:\Program Files\PostgreSQL\17\bin;C:\Ruby34-x64\bin;C:\Users\Alvaro\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\Alvaro\AppData\Local\Programs\Python\Python312\;C:\Users\Alvaro\AppData\Local\Programs\Python\Launcher\;C:\Users\Alvaro\AppData\Local\Microsoft\WindowsApps;C:\Users\Alvaro\AppData\Local\Programs\Microsoft VS Code\bin;C:\SQLite_Aprendizaje\sqlite-tools-win-x64-3480000;C:\Users\Alvaro\.dotnet\tools;C:\Users\Alvaro\AppData\Roaming\npm" ASAN_OPTIONS=detect_leaks=0 "gcc -o conftest.exe -IC:/Ruby34-x64/include/ruby-3.4.0/x64-mingw-ucrt -IC:/Ruby34-x64/include/ruby-3.4.0/ruby/backward -IC:/Ruby34-x64/include/ruby-3.4.0 -I. -IC:/PROGRA~1/POSTGR~1/17/include -D_WIN32_WINNT=0x0600 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64  -O3 -fstack-protector-strong conftest.c -L. -LC:/Ruby34-x64/lib -LC:/PROGRA~1/POSTGR~1/17/lib -L. -pipe -s -fstack-protector-strong -Wl,--no-as-needed -Wl,-rpath,C:/PROGRA~1/POSTGR~1/17/bin    -llibpq  -lx64-ucrt-ruby340 -l:libpq.lib -llibpq  -lshell32 -lws2_32 -liphlpapi -limagehlp -lshlwapi -lbcrypt  "
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: #include <winsock2.h>
+ 4: #include <windows.h>
+ 5: 
+ 6: /*top*/
+ 7: extern int t(void);
+ 8: int main(int argc, char **argv)
+ 9: {
+10:   if (argc > 1000000) {
+11:     int (* volatile tp)(void)=(int (*)(void))&t;
+12:     printf("%d", (*tp)());
+13:   }
+14: 
+15:   return !!argv[argc];
+16: }
+17: 
+18: int t(void) { ; return 0; }
+/* end */
+
+--------------------
+
+--------------------
+
+have_func: checking for PQconninfo() in libpq-fe.h... -------------------- yes
+
+PATH=".;C:/Ruby34-x64/lib;C:\Ruby34-x64\bin;C:\Ruby34-x64\msys64\ucrt64\bin;C:\Ruby34-x64\msys64\usr\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\workspace\gradle-8.12\bin;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\Program Files\MySQL\MySQL Server 9.2\bin;C:\Program Files\PostgreSQL\17\bin;C:\Ruby34-x64\bin;C:\Users\Alvaro\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\Alvaro\AppData\Local\Programs\Python\Python312\;C:\Users\Alvaro\AppData\Local\Programs\Python\Launcher\;C:\Users\Alvaro\AppData\Local\Microsoft\WindowsApps;C:\Users\Alvaro\AppData\Local\Programs\Microsoft VS Code\bin;C:\SQLite_Aprendizaje\sqlite-tools-win-x64-3480000;C:\Users\Alvaro\.dotnet\tools;C:\Users\Alvaro\AppData\Roaming\npm" ASAN_OPTIONS=detect_leaks=0 "gcc -o conftest.exe -IC:/Ruby34-x64/include/ruby-3.4.0/x64-mingw-ucrt -IC:/Ruby34-x64/include/ruby-3.4.0/ruby/backward -IC:/Ruby34-x64/include/ruby-3.4.0 -I. -IC:/PROGRA~1/POSTGR~1/17/include -D_WIN32_WINNT=0x0600 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64  -O3 -fstack-protector-strong conftest.c -L. -LC:/Ruby34-x64/lib -LC:/PROGRA~1/POSTGR~1/17/lib -L. -pipe -s -fstack-protector-strong -Wl,--no-as-needed -Wl,-rpath,C:/PROGRA~1/POSTGR~1/17/bin    -l:libpq.lib -llibpq  -lx64-ucrt-ruby340 -l:libpq.lib -llibpq  -lshell32 -lws2_32 -liphlpapi -limagehlp -lshlwapi -lbcrypt  "
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: #include <winsock2.h>
+ 4: #include <windows.h>
+ 5: #include <libpq-fe.h>
+ 6: 
+ 7: /*top*/
+ 8: extern int t(void);
+ 9: int main(int argc, char **argv)
+10: {
+11:   if (argc > 1000000) {
+12:     int (* volatile tp)(void)=(int (*)(void))&t;
+13:     printf("%d", (*tp)());
+14:   }
+15: 
+16:   return !!argv[argc];
+17: }
+18: int t(void) { void ((*volatile p)()); p = (void ((*)()))PQconninfo; return !p; }
+/* end */
+
+--------------------
+
+have_func: checking for PQsslAttribute() in libpq-fe.h... -------------------- yes
+
+PATH=".;C:/Ruby34-x64/lib;C:\Ruby34-x64\bin;C:\Ruby34-x64\msys64\ucrt64\bin;C:\Ruby34-x64\msys64\usr\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\workspace\gradle-8.12\bin;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\Program Files\MySQL\MySQL Server 9.2\bin;C:\Program Files\PostgreSQL\17\bin;C:\Ruby34-x64\bin;C:\Users\Alvaro\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\Alvaro\AppData\Local\Programs\Python\Python312\;C:\Users\Alvaro\AppData\Local\Programs\Python\Launcher\;C:\Users\Alvaro\AppData\Local\Microsoft\WindowsApps;C:\Users\Alvaro\AppData\Local\Programs\Microsoft VS Code\bin;C:\SQLite_Aprendizaje\sqlite-tools-win-x64-3480000;C:\Users\Alvaro\.dotnet\tools;C:\Users\Alvaro\AppData\Roaming\npm" ASAN_OPTIONS=detect_leaks=0 "gcc -o conftest.exe -IC:/Ruby34-x64/include/ruby-3.4.0/x64-mingw-ucrt -IC:/Ruby34-x64/include/ruby-3.4.0/ruby/backward -IC:/Ruby34-x64/include/ruby-3.4.0 -I. -IC:/PROGRA~1/POSTGR~1/17/include -D_WIN32_WINNT=0x0600 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64  -O3 -fstack-protector-strong conftest.c -L. -LC:/Ruby34-x64/lib -LC:/PROGRA~1/POSTGR~1/17/lib -L. -pipe -s -fstack-protector-strong -Wl,--no-as-needed -Wl,-rpath,C:/PROGRA~1/POSTGR~1/17/bin    -l:libpq.lib -llibpq  -lx64-ucrt-ruby340 -l:libpq.lib -llibpq  -lshell32 -lws2_32 -liphlpapi -limagehlp -lshlwapi -lbcrypt  "
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: #include <winsock2.h>
+ 4: #include <windows.h>
+ 5: #include <libpq-fe.h>
+ 6: 
+ 7: /*top*/
+ 8: extern int t(void);
+ 9: int main(int argc, char **argv)
+10: {
+11:   if (argc > 1000000) {
+12:     int (* volatile tp)(void)=(int (*)(void))&t;
+13:     printf("%d", (*tp)());
+14:   }
+15: 
+16:   return !!argv[argc];
+17: }
+18: int t(void) { void ((*volatile p)()); p = (void ((*)()))PQsslAttribute; return !p; }
+/* end */
+
+--------------------
+
+have_func: checking for PQresultVerboseErrorMessage() in libpq-fe.h... -------------------- yes
+
+PATH=".;C:/Ruby34-x64/lib;C:\Ruby34-x64\bin;C:\Ruby34-x64\msys64\ucrt64\bin;C:\Ruby34-x64\msys64\usr\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\workspace\gradle-8.12\bin;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\Program Files\MySQL\MySQL Server 9.2\bin;C:\Program Files\PostgreSQL\17\bin;C:\Ruby34-x64\bin;C:\Users\Alvaro\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\Alvaro\AppData\Local\Programs\Python\Python312\;C:\Users\Alvaro\AppData\Local\Programs\Python\Launcher\;C:\Users\Alvaro\AppData\Local\Microsoft\WindowsApps;C:\Users\Alvaro\AppData\Local\Programs\Microsoft VS Code\bin;C:\SQLite_Aprendizaje\sqlite-tools-win-x64-3480000;C:\Users\Alvaro\.dotnet\tools;C:\Users\Alvaro\AppData\Roaming\npm" ASAN_OPTIONS=detect_leaks=0 "gcc -o conftest.exe -IC:/Ruby34-x64/include/ruby-3.4.0/x64-mingw-ucrt -IC:/Ruby34-x64/include/ruby-3.4.0/ruby/backward -IC:/Ruby34-x64/include/ruby-3.4.0 -I. -IC:/PROGRA~1/POSTGR~1/17/include -D_WIN32_WINNT=0x0600 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64  -O3 -fstack-protector-strong conftest.c -L. -LC:/Ruby34-x64/lib -LC:/PROGRA~1/POSTGR~1/17/lib -L. -pipe -s -fstack-protector-strong -Wl,--no-as-needed -Wl,-rpath,C:/PROGRA~1/POSTGR~1/17/bin    -l:libpq.lib -llibpq  -lx64-ucrt-ruby340 -l:libpq.lib -llibpq  -lshell32 -lws2_32 -liphlpapi -limagehlp -lshlwapi -lbcrypt  "
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: #include <winsock2.h>
+ 4: #include <windows.h>
+ 5: #include <libpq-fe.h>
+ 6: 
+ 7: /*top*/
+ 8: extern int t(void);
+ 9: int main(int argc, char **argv)
+10: {
+11:   if (argc > 1000000) {
+12:     int (* volatile tp)(void)=(int (*)(void))&t;
+13:     printf("%d", (*tp)());
+14:   }
+15: 
+16:   return !!argv[argc];
+17: }
+18: int t(void) { void ((*volatile p)()); p = (void ((*)()))PQresultVerboseErrorMessage; return !p; }
+/* end */
+
+--------------------
+
+have_func: checking for PQencryptPasswordConn() in libpq-fe.h... -------------------- yes
+
+PATH=".;C:/Ruby34-x64/lib;C:\Ruby34-x64\bin;C:\Ruby34-x64\msys64\ucrt64\bin;C:\Ruby34-x64\msys64\usr\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\workspace\gradle-8.12\bin;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\Program Files\MySQL\MySQL Server 9.2\bin;C:\Program Files\PostgreSQL\17\bin;C:\Ruby34-x64\bin;C:\Users\Alvaro\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\Alvaro\AppData\Local\Programs\Python\Python312\;C:\Users\Alvaro\AppData\Local\Programs\Python\Launcher\;C:\Users\Alvaro\AppData\Local\Microsoft\WindowsApps;C:\Users\Alvaro\AppData\Local\Programs\Microsoft VS Code\bin;C:\SQLite_Aprendizaje\sqlite-tools-win-x64-3480000;C:\Users\Alvaro\.dotnet\tools;C:\Users\Alvaro\AppData\Roaming\npm" ASAN_OPTIONS=detect_leaks=0 "gcc -o conftest.exe -IC:/Ruby34-x64/include/ruby-3.4.0/x64-mingw-ucrt -IC:/Ruby34-x64/include/ruby-3.4.0/ruby/backward -IC:/Ruby34-x64/include/ruby-3.4.0 -I. -IC:/PROGRA~1/POSTGR~1/17/include -D_WIN32_WINNT=0x0600 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64  -O3 -fstack-protector-strong conftest.c -L. -LC:/Ruby34-x64/lib -LC:/PROGRA~1/POSTGR~1/17/lib -L. -pipe -s -fstack-protector-strong -Wl,--no-as-needed -Wl,-rpath,C:/PROGRA~1/POSTGR~1/17/bin    -l:libpq.lib -llibpq  -lx64-ucrt-ruby340 -l:libpq.lib -llibpq  -lshell32 -lws2_32 -liphlpapi -limagehlp -lshlwapi -lbcrypt  "
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: #include <winsock2.h>
+ 4: #include <windows.h>
+ 5: #include <libpq-fe.h>
+ 6: 
+ 7: /*top*/
+ 8: extern int t(void);
+ 9: int main(int argc, char **argv)
+10: {
+11:   if (argc > 1000000) {
+12:     int (* volatile tp)(void)=(int (*)(void))&t;
+13:     printf("%d", (*tp)());
+14:   }
+15: 
+16:   return !!argv[argc];
+17: }
+18: int t(void) { void ((*volatile p)()); p = (void ((*)()))PQencryptPasswordConn; return !p; }
+/* end */
+
+--------------------
+
+have_func: checking for PQresultMemorySize() in libpq-fe.h... -------------------- yes
+
+PATH=".;C:/Ruby34-x64/lib;C:\Ruby34-x64\bin;C:\Ruby34-x64\msys64\ucrt64\bin;C:\Ruby34-x64\msys64\usr\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\workspace\gradle-8.12\bin;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\Program Files\MySQL\MySQL Server 9.2\bin;C:\Program Files\PostgreSQL\17\bin;C:\Ruby34-x64\bin;C:\Users\Alvaro\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\Alvaro\AppData\Local\Programs\Python\Python312\;C:\Users\Alvaro\AppData\Local\Programs\Python\Launcher\;C:\Users\Alvaro\AppData\Local\Microsoft\WindowsApps;C:\Users\Alvaro\AppData\Local\Programs\Microsoft VS Code\bin;C:\SQLite_Aprendizaje\sqlite-tools-win-x64-3480000;C:\Users\Alvaro\.dotnet\tools;C:\Users\Alvaro\AppData\Roaming\npm" ASAN_OPTIONS=detect_leaks=0 "gcc -o conftest.exe -IC:/Ruby34-x64/include/ruby-3.4.0/x64-mingw-ucrt -IC:/Ruby34-x64/include/ruby-3.4.0/ruby/backward -IC:/Ruby34-x64/include/ruby-3.4.0 -I. -IC:/PROGRA~1/POSTGR~1/17/include -D_WIN32_WINNT=0x0600 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64  -O3 -fstack-protector-strong conftest.c -L. -LC:/Ruby34-x64/lib -LC:/PROGRA~1/POSTGR~1/17/lib -L. -pipe -s -fstack-protector-strong -Wl,--no-as-needed -Wl,-rpath,C:/PROGRA~1/POSTGR~1/17/bin    -l:libpq.lib -llibpq  -lx64-ucrt-ruby340 -l:libpq.lib -llibpq  -lshell32 -lws2_32 -liphlpapi -limagehlp -lshlwapi -lbcrypt  "
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: #include <winsock2.h>
+ 4: #include <windows.h>
+ 5: #include <libpq-fe.h>
+ 6: 
+ 7: /*top*/
+ 8: extern int t(void);
+ 9: int main(int argc, char **argv)
+10: {
+11:   if (argc > 1000000) {
+12:     int (* volatile tp)(void)=(int (*)(void))&t;
+13:     printf("%d", (*tp)());
+14:   }
+15: 
+16:   return !!argv[argc];
+17: }
+18: int t(void) { void ((*volatile p)()); p = (void ((*)()))PQresultMemorySize; return !p; }
+/* end */
+
+--------------------
+
+have_func: checking for PQenterPipelineMode() in libpq-fe.h... -------------------- yes
+
+PATH=".;C:/Ruby34-x64/lib;C:\Ruby34-x64\bin;C:\Ruby34-x64\msys64\ucrt64\bin;C:\Ruby34-x64\msys64\usr\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\workspace\gradle-8.12\bin;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\Program Files\MySQL\MySQL Server 9.2\bin;C:\Program Files\PostgreSQL\17\bin;C:\Ruby34-x64\bin;C:\Users\Alvaro\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\Alvaro\AppData\Local\Programs\Python\Python312\;C:\Users\Alvaro\AppData\Local\Programs\Python\Launcher\;C:\Users\Alvaro\AppData\Local\Microsoft\WindowsApps;C:\Users\Alvaro\AppData\Local\Programs\Microsoft VS Code\bin;C:\SQLite_Aprendizaje\sqlite-tools-win-x64-3480000;C:\Users\Alvaro\.dotnet\tools;C:\Users\Alvaro\AppData\Roaming\npm" ASAN_OPTIONS=detect_leaks=0 "gcc -o conftest.exe -IC:/Ruby34-x64/include/ruby-3.4.0/x64-mingw-ucrt -IC:/Ruby34-x64/include/ruby-3.4.0/ruby/backward -IC:/Ruby34-x64/include/ruby-3.4.0 -I. -IC:/PROGRA~1/POSTGR~1/17/include -D_WIN32_WINNT=0x0600 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64  -O3 -fstack-protector-strong conftest.c -L. -LC:/Ruby34-x64/lib -LC:/PROGRA~1/POSTGR~1/17/lib -L. -pipe -s -fstack-protector-strong -Wl,--no-as-needed -Wl,-rpath,C:/PROGRA~1/POSTGR~1/17/bin    -l:libpq.lib -llibpq  -lx64-ucrt-ruby340 -l:libpq.lib -llibpq  -lshell32 -lws2_32 -liphlpapi -limagehlp -lshlwapi -lbcrypt  "
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: #include <winsock2.h>
+ 4: #include <windows.h>
+ 5: #include <libpq-fe.h>
+ 6: 
+ 7: /*top*/
+ 8: extern int t(void);
+ 9: int main(int argc, char **argv)
+10: {
+11:   if (argc > 1000000) {
+12:     int (* volatile tp)(void)=(int (*)(void))&t;
+13:     printf("%d", (*tp)());
+14:   }
+15: 
+16:   return !!argv[argc];
+17: }
+18: int t(void) { void ((*volatile p)()); p = (void ((*)()))PQenterPipelineMode; return !p; }
+19:  int con(){ return PGRES_PIPELINE_SYNC; }
+/* end */
+
+--------------------
+
+have_func: checking for timegm()... -------------------- no
+
+PATH=".;C:/Ruby34-x64/lib;C:\Ruby34-x64\bin;C:\Ruby34-x64\msys64\ucrt64\bin;C:\Ruby34-x64\msys64\usr\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\workspace\gradle-8.12\bin;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\Program Files\MySQL\MySQL Server 9.2\bin;C:\Program Files\PostgreSQL\17\bin;C:\Ruby34-x64\bin;C:\Users\Alvaro\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\Alvaro\AppData\Local\Programs\Python\Python312\;C:\Users\Alvaro\AppData\Local\Programs\Python\Launcher\;C:\Users\Alvaro\AppData\Local\Microsoft\WindowsApps;C:\Users\Alvaro\AppData\Local\Programs\Microsoft VS Code\bin;C:\SQLite_Aprendizaje\sqlite-tools-win-x64-3480000;C:\Users\Alvaro\.dotnet\tools;C:\Users\Alvaro\AppData\Roaming\npm" ASAN_OPTIONS=detect_leaks=0 "gcc -o conftest.exe -IC:/Ruby34-x64/include/ruby-3.4.0/x64-mingw-ucrt -IC:/Ruby34-x64/include/ruby-3.4.0/ruby/backward -IC:/Ruby34-x64/include/ruby-3.4.0 -I. -IC:/PROGRA~1/POSTGR~1/17/include -D_WIN32_WINNT=0x0600 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64  -O3 -fstack-protector-strong conftest.c -L. -LC:/Ruby34-x64/lib -LC:/PROGRA~1/POSTGR~1/17/lib -L. -pipe -s -fstack-protector-strong -Wl,--no-as-needed -Wl,-rpath,C:/PROGRA~1/POSTGR~1/17/bin    -l:libpq.lib -llibpq  -lx64-ucrt-ruby340 -l:libpq.lib -llibpq  -lshell32 -lws2_32 -liphlpapi -limagehlp -lshlwapi -lbcrypt  "
+conftest.c: In function 't':
+conftest.c:17:57: error: 'timegm' undeclared (first use in this function); did you mean 'time'?
+   17 | int t(void) { void ((*volatile p)()); p = (void ((*)()))timegm; return !p; }
+      |                                                         ^~~~~~
+      |                                                         time
+conftest.c:17:57: note: each undeclared identifier is reported only once for each function it appears in
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: #include <winsock2.h>
+ 4: #include <windows.h>
+ 5: 
+ 6: /*top*/
+ 7: extern int t(void);
+ 8: int main(int argc, char **argv)
+ 9: {
+10:   if (argc > 1000000) {
+11:     int (* volatile tp)(void)=(int (*)(void))&t;
+12:     printf("%d", (*tp)());
+13:   }
+14: 
+15:   return !!argv[argc];
+16: }
+17: int t(void) { void ((*volatile p)()); p = (void ((*)()))timegm; return !p; }
+/* end */
+
+PATH=".;C:/Ruby34-x64/lib;C:\Ruby34-x64\bin;C:\Ruby34-x64\msys64\ucrt64\bin;C:\Ruby34-x64\msys64\usr\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\workspace\gradle-8.12\bin;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\Program Files\MySQL\MySQL Server 9.2\bin;C:\Program Files\PostgreSQL\17\bin;C:\Ruby34-x64\bin;C:\Users\Alvaro\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\Alvaro\AppData\Local\Programs\Python\Python312\;C:\Users\Alvaro\AppData\Local\Programs\Python\Launcher\;C:\Users\Alvaro\AppData\Local\Microsoft\WindowsApps;C:\Users\Alvaro\AppData\Local\Programs\Microsoft VS Code\bin;C:\SQLite_Aprendizaje\sqlite-tools-win-x64-3480000;C:\Users\Alvaro\.dotnet\tools;C:\Users\Alvaro\AppData\Roaming\npm" ASAN_OPTIONS=detect_leaks=0 "gcc -o conftest.exe -IC:/Ruby34-x64/include/ruby-3.4.0/x64-mingw-ucrt -IC:/Ruby34-x64/include/ruby-3.4.0/ruby/backward -IC:/Ruby34-x64/include/ruby-3.4.0 -I. -IC:/PROGRA~1/POSTGR~1/17/include -D_WIN32_WINNT=0x0600 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64  -O3 -fstack-protector-strong conftest.c -L. -LC:/Ruby34-x64/lib -LC:/PROGRA~1/POSTGR~1/17/lib -L. -pipe -s -fstack-protector-strong -Wl,--no-as-needed -Wl,-rpath,C:/PROGRA~1/POSTGR~1/17/bin    -l:libpq.lib -llibpq  -lx64-ucrt-ruby340 -l:libpq.lib -llibpq  -lshell32 -lws2_32 -liphlpapi -limagehlp -lshlwapi -lbcrypt  "
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:\Users\Alvaro\AppData\Local\Temp\cc8q8tEc.o:conftest.c:(.text+0x5): undefined reference to `timegm'
+collect2.exe: error: ld returned 1 exit status
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: #include <winsock2.h>
+ 4: #include <windows.h>
+ 5: 
+ 6: /*top*/
+ 7: extern int t(void);
+ 8: int main(int argc, char **argv)
+ 9: {
+10:   if (argc > 1000000) {
+11:     int (* volatile tp)(void)=(int (*)(void))&t;
+12:     printf("%d", (*tp)());
+13:   }
+14: 
+15:   return !!argv[argc];
+16: }
+17: extern void timegm();
+18: int t(void) { timegm(); return 0; }
+/* end */
+
+--------------------
+
+have_func: checking for rb_gc_adjust_memory_usage()... -------------------- yes
+
+PATH=".;C:/Ruby34-x64/lib;C:\Ruby34-x64\bin;C:\Ruby34-x64\msys64\ucrt64\bin;C:\Ruby34-x64\msys64\usr\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\workspace\gradle-8.12\bin;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\Program Files\MySQL\MySQL Server 9.2\bin;C:\Program Files\PostgreSQL\17\bin;C:\Ruby34-x64\bin;C:\Users\Alvaro\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\Alvaro\AppData\Local\Programs\Python\Python312\;C:\Users\Alvaro\AppData\Local\Programs\Python\Launcher\;C:\Users\Alvaro\AppData\Local\Microsoft\WindowsApps;C:\Users\Alvaro\AppData\Local\Programs\Microsoft VS Code\bin;C:\SQLite_Aprendizaje\sqlite-tools-win-x64-3480000;C:\Users\Alvaro\.dotnet\tools;C:\Users\Alvaro\AppData\Roaming\npm" ASAN_OPTIONS=detect_leaks=0 "gcc -o conftest.exe -IC:/Ruby34-x64/include/ruby-3.4.0/x64-mingw-ucrt -IC:/Ruby34-x64/include/ruby-3.4.0/ruby/backward -IC:/Ruby34-x64/include/ruby-3.4.0 -I. -IC:/PROGRA~1/POSTGR~1/17/include -D_WIN32_WINNT=0x0600 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64  -O3 -fstack-protector-strong conftest.c -L. -LC:/Ruby34-x64/lib -LC:/PROGRA~1/POSTGR~1/17/lib -L. -pipe -s -fstack-protector-strong -Wl,--no-as-needed -Wl,-rpath,C:/PROGRA~1/POSTGR~1/17/bin    -l:libpq.lib -llibpq  -lx64-ucrt-ruby340 -l:libpq.lib -llibpq  -lshell32 -lws2_32 -liphlpapi -limagehlp -lshlwapi -lbcrypt  "
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: #include <winsock2.h>
+ 4: #include <windows.h>
+ 5: 
+ 6: /*top*/
+ 7: extern int t(void);
+ 8: int main(int argc, char **argv)
+ 9: {
+10:   if (argc > 1000000) {
+11:     int (* volatile tp)(void)=(int (*)(void))&t;
+12:     printf("%d", (*tp)());
+13:   }
+14: 
+15:   return !!argv[argc];
+16: }
+17: int t(void) { void ((*volatile p)()); p = (void ((*)()))rb_gc_adjust_memory_usage; return !p; }
+/* end */
+
+--------------------
+
+have_func: checking for rb_gc_mark_movable()... -------------------- yes
+
+PATH=".;C:/Ruby34-x64/lib;C:\Ruby34-x64\bin;C:\Ruby34-x64\msys64\ucrt64\bin;C:\Ruby34-x64\msys64\usr\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\workspace\gradle-8.12\bin;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\Program Files\MySQL\MySQL Server 9.2\bin;C:\Program Files\PostgreSQL\17\bin;C:\Ruby34-x64\bin;C:\Users\Alvaro\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\Alvaro\AppData\Local\Programs\Python\Python312\;C:\Users\Alvaro\AppData\Local\Programs\Python\Launcher\;C:\Users\Alvaro\AppData\Local\Microsoft\WindowsApps;C:\Users\Alvaro\AppData\Local\Programs\Microsoft VS Code\bin;C:\SQLite_Aprendizaje\sqlite-tools-win-x64-3480000;C:\Users\Alvaro\.dotnet\tools;C:\Users\Alvaro\AppData\Roaming\npm" ASAN_OPTIONS=detect_leaks=0 "gcc -o conftest.exe -IC:/Ruby34-x64/include/ruby-3.4.0/x64-mingw-ucrt -IC:/Ruby34-x64/include/ruby-3.4.0/ruby/backward -IC:/Ruby34-x64/include/ruby-3.4.0 -I. -IC:/PROGRA~1/POSTGR~1/17/include -D_WIN32_WINNT=0x0600 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64  -O3 -fstack-protector-strong conftest.c -L. -LC:/Ruby34-x64/lib -LC:/PROGRA~1/POSTGR~1/17/lib -L. -pipe -s -fstack-protector-strong -Wl,--no-as-needed -Wl,-rpath,C:/PROGRA~1/POSTGR~1/17/bin    -l:libpq.lib -llibpq  -lx64-ucrt-ruby340 -l:libpq.lib -llibpq  -lshell32 -lws2_32 -liphlpapi -limagehlp -lshlwapi -lbcrypt  "
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: #include <winsock2.h>
+ 4: #include <windows.h>
+ 5: 
+ 6: /*top*/
+ 7: extern int t(void);
+ 8: int main(int argc, char **argv)
+ 9: {
+10:   if (argc > 1000000) {
+11:     int (* volatile tp)(void)=(int (*)(void))&t;
+12:     printf("%d", (*tp)());
+13:   }
+14: 
+15:   return !!argv[argc];
+16: }
+17: int t(void) { void ((*volatile p)()); p = (void ((*)()))rb_gc_mark_movable; return !p; }
+/* end */
+
+--------------------
+
+have_func: checking for rb_io_wait()... -------------------- yes
+
+PATH=".;C:/Ruby34-x64/lib;C:\Ruby34-x64\bin;C:\Ruby34-x64\msys64\ucrt64\bin;C:\Ruby34-x64\msys64\usr\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\workspace\gradle-8.12\bin;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\Program Files\MySQL\MySQL Server 9.2\bin;C:\Program Files\PostgreSQL\17\bin;C:\Ruby34-x64\bin;C:\Users\Alvaro\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\Alvaro\AppData\Local\Programs\Python\Python312\;C:\Users\Alvaro\AppData\Local\Programs\Python\Launcher\;C:\Users\Alvaro\AppData\Local\Microsoft\WindowsApps;C:\Users\Alvaro\AppData\Local\Programs\Microsoft VS Code\bin;C:\SQLite_Aprendizaje\sqlite-tools-win-x64-3480000;C:\Users\Alvaro\.dotnet\tools;C:\Users\Alvaro\AppData\Roaming\npm" ASAN_OPTIONS=detect_leaks=0 "gcc -o conftest.exe -IC:/Ruby34-x64/include/ruby-3.4.0/x64-mingw-ucrt -IC:/Ruby34-x64/include/ruby-3.4.0/ruby/backward -IC:/Ruby34-x64/include/ruby-3.4.0 -I. -IC:/PROGRA~1/POSTGR~1/17/include -D_WIN32_WINNT=0x0600 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64  -O3 -fstack-protector-strong conftest.c -L. -LC:/Ruby34-x64/lib -LC:/PROGRA~1/POSTGR~1/17/lib -L. -pipe -s -fstack-protector-strong -Wl,--no-as-needed -Wl,-rpath,C:/PROGRA~1/POSTGR~1/17/bin    -l:libpq.lib -llibpq  -lx64-ucrt-ruby340 -l:libpq.lib -llibpq  -lshell32 -lws2_32 -liphlpapi -limagehlp -lshlwapi -lbcrypt  "
+conftest.c: In function 't':
+conftest.c:17:57: error: 'rb_io_wait' undeclared (first use in this function); did you mean 'rb_io_write'?
+   17 | int t(void) { void ((*volatile p)()); p = (void ((*)()))rb_io_wait; return !p; }
+      |                                                         ^~~~~~~~~~
+      |                                                         rb_io_write
+conftest.c:17:57: note: each undeclared identifier is reported only once for each function it appears in
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: #include <winsock2.h>
+ 4: #include <windows.h>
+ 5: 
+ 6: /*top*/
+ 7: extern int t(void);
+ 8: int main(int argc, char **argv)
+ 9: {
+10:   if (argc > 1000000) {
+11:     int (* volatile tp)(void)=(int (*)(void))&t;
+12:     printf("%d", (*tp)());
+13:   }
+14: 
+15:   return !!argv[argc];
+16: }
+17: int t(void) { void ((*volatile p)()); p = (void ((*)()))rb_io_wait; return !p; }
+/* end */
+
+PATH=".;C:/Ruby34-x64/lib;C:\Ruby34-x64\bin;C:\Ruby34-x64\msys64\ucrt64\bin;C:\Ruby34-x64\msys64\usr\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\workspace\gradle-8.12\bin;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\Program Files\MySQL\MySQL Server 9.2\bin;C:\Program Files\PostgreSQL\17\bin;C:\Ruby34-x64\bin;C:\Users\Alvaro\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\Alvaro\AppData\Local\Programs\Python\Python312\;C:\Users\Alvaro\AppData\Local\Programs\Python\Launcher\;C:\Users\Alvaro\AppData\Local\Microsoft\WindowsApps;C:\Users\Alvaro\AppData\Local\Programs\Microsoft VS Code\bin;C:\SQLite_Aprendizaje\sqlite-tools-win-x64-3480000;C:\Users\Alvaro\.dotnet\tools;C:\Users\Alvaro\AppData\Roaming\npm" ASAN_OPTIONS=detect_leaks=0 "gcc -o conftest.exe -IC:/Ruby34-x64/include/ruby-3.4.0/x64-mingw-ucrt -IC:/Ruby34-x64/include/ruby-3.4.0/ruby/backward -IC:/Ruby34-x64/include/ruby-3.4.0 -I. -IC:/PROGRA~1/POSTGR~1/17/include -D_WIN32_WINNT=0x0600 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64  -O3 -fstack-protector-strong conftest.c -L. -LC:/Ruby34-x64/lib -LC:/PROGRA~1/POSTGR~1/17/lib -L. -pipe -s -fstack-protector-strong -Wl,--no-as-needed -Wl,-rpath,C:/PROGRA~1/POSTGR~1/17/bin    -l:libpq.lib -llibpq  -lx64-ucrt-ruby340 -l:libpq.lib -llibpq  -lshell32 -lws2_32 -liphlpapi -limagehlp -lshlwapi -lbcrypt  "
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: #include <winsock2.h>
+ 4: #include <windows.h>
+ 5: 
+ 6: /*top*/
+ 7: extern int t(void);
+ 8: int main(int argc, char **argv)
+ 9: {
+10:   if (argc > 1000000) {
+11:     int (* volatile tp)(void)=(int (*)(void))&t;
+12:     printf("%d", (*tp)());
+13:   }
+14: 
+15:   return !!argv[argc];
+16: }
+17: extern void rb_io_wait();
+18: int t(void) { rb_io_wait(); return 0; }
+/* end */
+
+--------------------
+
+have_func: checking for rb_io_descriptor()... -------------------- yes
+
+PATH=".;C:/Ruby34-x64/lib;C:\Ruby34-x64\bin;C:\Ruby34-x64\msys64\ucrt64\bin;C:\Ruby34-x64\msys64\usr\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\workspace\gradle-8.12\bin;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\Program Files\MySQL\MySQL Server 9.2\bin;C:\Program Files\PostgreSQL\17\bin;C:\Ruby34-x64\bin;C:\Users\Alvaro\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\Alvaro\AppData\Local\Programs\Python\Python312\;C:\Users\Alvaro\AppData\Local\Programs\Python\Launcher\;C:\Users\Alvaro\AppData\Local\Microsoft\WindowsApps;C:\Users\Alvaro\AppData\Local\Programs\Microsoft VS Code\bin;C:\SQLite_Aprendizaje\sqlite-tools-win-x64-3480000;C:\Users\Alvaro\.dotnet\tools;C:\Users\Alvaro\AppData\Roaming\npm" ASAN_OPTIONS=detect_leaks=0 "gcc -o conftest.exe -IC:/Ruby34-x64/include/ruby-3.4.0/x64-mingw-ucrt -IC:/Ruby34-x64/include/ruby-3.4.0/ruby/backward -IC:/Ruby34-x64/include/ruby-3.4.0 -I. -IC:/PROGRA~1/POSTGR~1/17/include -D_WIN32_WINNT=0x0600 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64  -O3 -fstack-protector-strong conftest.c -L. -LC:/Ruby34-x64/lib -LC:/PROGRA~1/POSTGR~1/17/lib -L. -pipe -s -fstack-protector-strong -Wl,--no-as-needed -Wl,-rpath,C:/PROGRA~1/POSTGR~1/17/bin    -l:libpq.lib -llibpq  -lx64-ucrt-ruby340 -l:libpq.lib -llibpq  -lshell32 -lws2_32 -liphlpapi -limagehlp -lshlwapi -lbcrypt  "
+conftest.c: In function 't':
+conftest.c:17:57: error: 'rb_io_descriptor' undeclared (first use in this function)
+   17 | int t(void) { void ((*volatile p)()); p = (void ((*)()))rb_io_descriptor; return !p; }
+      |                                                         ^~~~~~~~~~~~~~~~
+conftest.c:17:57: note: each undeclared identifier is reported only once for each function it appears in
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: #include <winsock2.h>
+ 4: #include <windows.h>
+ 5: 
+ 6: /*top*/
+ 7: extern int t(void);
+ 8: int main(int argc, char **argv)
+ 9: {
+10:   if (argc > 1000000) {
+11:     int (* volatile tp)(void)=(int (*)(void))&t;
+12:     printf("%d", (*tp)());
+13:   }
+14: 
+15:   return !!argv[argc];
+16: }
+17: int t(void) { void ((*volatile p)()); p = (void ((*)()))rb_io_descriptor; return !p; }
+/* end */
+
+PATH=".;C:/Ruby34-x64/lib;C:\Ruby34-x64\bin;C:\Ruby34-x64\msys64\ucrt64\bin;C:\Ruby34-x64\msys64\usr\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\workspace\gradle-8.12\bin;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\Program Files\MySQL\MySQL Server 9.2\bin;C:\Program Files\PostgreSQL\17\bin;C:\Ruby34-x64\bin;C:\Users\Alvaro\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\Alvaro\AppData\Local\Programs\Python\Python312\;C:\Users\Alvaro\AppData\Local\Programs\Python\Launcher\;C:\Users\Alvaro\AppData\Local\Microsoft\WindowsApps;C:\Users\Alvaro\AppData\Local\Programs\Microsoft VS Code\bin;C:\SQLite_Aprendizaje\sqlite-tools-win-x64-3480000;C:\Users\Alvaro\.dotnet\tools;C:\Users\Alvaro\AppData\Roaming\npm" ASAN_OPTIONS=detect_leaks=0 "gcc -o conftest.exe -IC:/Ruby34-x64/include/ruby-3.4.0/x64-mingw-ucrt -IC:/Ruby34-x64/include/ruby-3.4.0/ruby/backward -IC:/Ruby34-x64/include/ruby-3.4.0 -I. -IC:/PROGRA~1/POSTGR~1/17/include -D_WIN32_WINNT=0x0600 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64  -O3 -fstack-protector-strong conftest.c -L. -LC:/Ruby34-x64/lib -LC:/PROGRA~1/POSTGR~1/17/lib -L. -pipe -s -fstack-protector-strong -Wl,--no-as-needed -Wl,-rpath,C:/PROGRA~1/POSTGR~1/17/bin    -l:libpq.lib -llibpq  -lx64-ucrt-ruby340 -l:libpq.lib -llibpq  -lshell32 -lws2_32 -liphlpapi -limagehlp -lshlwapi -lbcrypt  "
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: #include <winsock2.h>
+ 4: #include <windows.h>
+ 5: 
+ 6: /*top*/
+ 7: extern int t(void);
+ 8: int main(int argc, char **argv)
+ 9: {
+10:   if (argc > 1000000) {
+11:     int (* volatile tp)(void)=(int (*)(void))&t;
+12:     printf("%d", (*tp)());
+13:   }
+14: 
+15:   return !!argv[argc];
+16: }
+17: extern void rb_io_descriptor();
+18: int t(void) { rb_io_descriptor(); return 0; }
+/* end */
+
+--------------------
+
+have_header: checking for unistd.h... -------------------- yes
+
+PATH=".;C:/Ruby34-x64/lib;C:\Ruby34-x64\bin;C:\Ruby34-x64\msys64\ucrt64\bin;C:\Ruby34-x64\msys64\usr\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\workspace\gradle-8.12\bin;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\Program Files\MySQL\MySQL Server 9.2\bin;C:\Program Files\PostgreSQL\17\bin;C:\Ruby34-x64\bin;C:\Users\Alvaro\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\Alvaro\AppData\Local\Programs\Python\Python312\;C:\Users\Alvaro\AppData\Local\Programs\Python\Launcher\;C:\Users\Alvaro\AppData\Local\Microsoft\WindowsApps;C:\Users\Alvaro\AppData\Local\Programs\Microsoft VS Code\bin;C:\SQLite_Aprendizaje\sqlite-tools-win-x64-3480000;C:\Users\Alvaro\.dotnet\tools;C:\Users\Alvaro\AppData\Roaming\npm" ASAN_OPTIONS=detect_leaks=0 "gcc -IC:/Ruby34-x64/include/ruby-3.4.0/x64-mingw-ucrt -IC:/Ruby34-x64/include/ruby-3.4.0/ruby/backward -IC:/Ruby34-x64/include/ruby-3.4.0 -I. -IC:/PROGRA~1/POSTGR~1/17/include -D_WIN32_WINNT=0x0600 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64  -O3 -fstack-protector-strong   -c conftest.c"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <winsock2.h>
+4: #include <windows.h>
+5: #include <unistd.h>
+/* end */
+
+--------------------
+
+have_header: checking for inttypes.h... -------------------- yes
+
+PATH=".;C:/Ruby34-x64/lib;C:\Ruby34-x64\bin;C:\Ruby34-x64\msys64\ucrt64\bin;C:\Ruby34-x64\msys64\usr\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\workspace\gradle-8.12\bin;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\Program Files\MySQL\MySQL Server 9.2\bin;C:\Program Files\PostgreSQL\17\bin;C:\Ruby34-x64\bin;C:\Users\Alvaro\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\Alvaro\AppData\Local\Programs\Python\Python312\;C:\Users\Alvaro\AppData\Local\Programs\Python\Launcher\;C:\Users\Alvaro\AppData\Local\Microsoft\WindowsApps;C:\Users\Alvaro\AppData\Local\Programs\Microsoft VS Code\bin;C:\SQLite_Aprendizaje\sqlite-tools-win-x64-3480000;C:\Users\Alvaro\.dotnet\tools;C:\Users\Alvaro\AppData\Roaming\npm" ASAN_OPTIONS=detect_leaks=0 "gcc -IC:/Ruby34-x64/include/ruby-3.4.0/x64-mingw-ucrt -IC:/Ruby34-x64/include/ruby-3.4.0/ruby/backward -IC:/Ruby34-x64/include/ruby-3.4.0 -I. -IC:/PROGRA~1/POSTGR~1/17/include -D_WIN32_WINNT=0x0600 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64  -O3 -fstack-protector-strong   -c conftest.c"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <winsock2.h>
+4: #include <windows.h>
+5: #include <inttypes.h>
+/* end */
+
+--------------------
+
+have_header: checking for ruby/fiber/scheduler.h... -------------------- yes
+
+PATH=".;C:/Ruby34-x64/lib;C:\Ruby34-x64\bin;C:\Ruby34-x64\msys64\ucrt64\bin;C:\Ruby34-x64\msys64\usr\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\workspace\gradle-8.12\bin;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\Program Files\MySQL\MySQL Server 9.2\bin;C:\Program Files\PostgreSQL\17\bin;C:\Ruby34-x64\bin;C:\Users\Alvaro\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\Alvaro\AppData\Local\Programs\Python\Python312\;C:\Users\Alvaro\AppData\Local\Programs\Python\Launcher\;C:\Users\Alvaro\AppData\Local\Microsoft\WindowsApps;C:\Users\Alvaro\AppData\Local\Programs\Microsoft VS Code\bin;C:\SQLite_Aprendizaje\sqlite-tools-win-x64-3480000;C:\Users\Alvaro\.dotnet\tools;C:\Users\Alvaro\AppData\Roaming\npm" ASAN_OPTIONS=detect_leaks=0 "gcc -IC:/Ruby34-x64/include/ruby-3.4.0/x64-mingw-ucrt -IC:/Ruby34-x64/include/ruby-3.4.0/ruby/backward -IC:/Ruby34-x64/include/ruby-3.4.0 -I. -IC:/PROGRA~1/POSTGR~1/17/include -D_WIN32_WINNT=0x0600 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64  -O3 -fstack-protector-strong   -c conftest.c"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <winsock2.h>
+4: #include <windows.h>
+5: #include <ruby/fiber/scheduler.h>
+/* end */
+
+--------------------
+
+checking for C99 variable length arrays... -------------------- yes
+
+PATH=".;C:/Ruby34-x64/lib;C:\Ruby34-x64\bin;C:\Ruby34-x64\msys64\ucrt64\bin;C:\Ruby34-x64\msys64\usr\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\workspace\gradle-8.12\bin;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\Program Files\MySQL\MySQL Server 9.2\bin;C:\Program Files\PostgreSQL\17\bin;C:\Ruby34-x64\bin;C:\Users\Alvaro\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\Alvaro\AppData\Local\Programs\Python\Python312\;C:\Users\Alvaro\AppData\Local\Programs\Python\Launcher\;C:\Users\Alvaro\AppData\Local\Microsoft\WindowsApps;C:\Users\Alvaro\AppData\Local\Programs\Microsoft VS Code\bin;C:\SQLite_Aprendizaje\sqlite-tools-win-x64-3480000;C:\Users\Alvaro\.dotnet\tools;C:\Users\Alvaro\AppData\Roaming\npm" ASAN_OPTIONS=detect_leaks=0 "gcc -IC:/Ruby34-x64/include/ruby-3.4.0/x64-mingw-ucrt -IC:/Ruby34-x64/include/ruby-3.4.0/ruby/backward -IC:/Ruby34-x64/include/ruby-3.4.0 -I. -IC:/PROGRA~1/POSTGR~1/17/include -D_WIN32_WINNT=0x0600 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64  -O3 -fstack-protector-strong   -c conftest.c"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <winsock2.h>
+4: #include <windows.h>
+5: void test_vla(int l){ int vla[l]; }
+/* end */
+
+--------------------
+
+extconf.h is:
+/* begin */
+ 1: #ifndef EXTCONF_H
+ 2: #define EXTCONF_H
+ 3: #define ENABLE_GVL_UNLOCK 1
+ 4: #define HAVE_PQCONNINFO 1
+ 5: #define HAVE_PQSSLATTRIBUTE 1
+ 6: #define HAVE_PQRESULTVERBOSEERRORMESSAGE 1
+ 7: #define HAVE_PQENCRYPTPASSWORDCONN 1
+ 8: #define HAVE_PQRESULTMEMORYSIZE 1
+ 9: #define HAVE_PQENTERPIPELINEMODE 1
+10: #define HAVE_RB_GC_ADJUST_MEMORY_USAGE 1
+11: #define HAVE_RB_GC_MARK_MOVABLE 1
+12: #define HAVE_RB_IO_WAIT 1
+13: #define HAVE_RB_IO_DESCRIPTOR 1
+14: #define HAVE_UNISTD_H 1
+15: #define HAVE_INTTYPES_H 1
+16: #define HAVE_RUBY_FIBER_SCHEDULER_H 1
+17: #define HAVE_VARIABLE_LENGTH_ARRAYS 1
+18: #endif
+/* end */
+
