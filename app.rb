@@ -4,6 +4,11 @@ require 'pg'
 require 'json'
 require 'bcrypt'
 
+# Ruta para la raíz (agregar esta línea)
+get '/' do
+  "Bienvenido a la API de usuarios"
+end
+
 # Configuración básica
 set :port, ENV['PORT'] || 4567
 set :bind, '0.0.0.0'
@@ -171,6 +176,11 @@ end
 error PG::Error do
   status 500
   { error: 'Error de base de datos', details: env['sinatra.error'].message }.to_json
+end
+
+error JSON::ParserError do
+  status 400
+  { error: 'JSON mal formado' }.to_json
 end
 
 not_found do
