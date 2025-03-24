@@ -1,4 +1,3 @@
-ENV['BUNDLE_PATH'] = '/opt/render/project/.gems'
 
 require './config/environment'
 
