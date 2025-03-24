@@ -1,0 +1,10 @@
+
+[
+  <% @usuarios.each do |usuario| %>
+    {
+      "id": "<%= usuario['id'] %>",
+      "nombre": "<%= usuario['nombre'] %>",
+      "email": "<%= usuario['email'] %>"
+    }<%= ',' unless usuario == @usuarios.last %>
+  <% end %>
+]
