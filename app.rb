@@ -55,12 +55,25 @@ def valid_email?(email)
   email =~ /\A[\w+\-.]+@[a-z\d\-]+(\.[a-z]+)*\.[a-z]+\z/i
 end
 
-# Endpoints
+# Endpoint para obtener todos los usuarios
 get '/usuarios' do
   users = db_connection.exec('SELECT id, nombre, email, fecha_registro FROM usuarios')
-  users.to_json
+
+  # Iterar sobre los resultados y convertirlos en un array de hashes
+  users_array = users.map do |user|
+    {
+      id: user['id'],
+      nombre: user['nombre'],
+      email: user['email'],
+      fecha_registro: user['fecha_registro']
+    }
+  end
+
+  # Convertir el array de hashes a JSON
+  users_array.to_json
 end
 
+# Endpoint para obtener un usuario por ID
 get '/usuario/:id' do
   id = params[:id].to_i
   result = db_connection.exec_params(
@@ -76,13 +89,14 @@ get '/usuario/:id' do
   end
 end
 
+# Endpoint para crear un nuevo usuario
 post '/usuario' do
   data = JSON.parse(request.body.read)
-  
+
   # Validaciones
   required_fields = ['nombre', 'email', 'password']
   missing_fields = required_fields.select { |field| data[field].to_s.empty? }
-  
+
   unless missing_fields.empty?
     status 400
     return { error: "Campos requeridos: #{missing_fields.join(', ')}" }.to_json
@@ -112,6 +126,7 @@ post '/usuario' do
   end
 end
 
+# Endpoint para actualizar un usuario
 put '/usuario/:id' do
   id = params[:id].to_i
   data = JSON.parse(request.body.read)
@@ -124,7 +139,7 @@ put '/usuario/:id' do
 
   updates = []
   params = []
-  
+
   ['nombre', 'email', 'password'].each_with_index do |field, index|
     if data[field]
       updates << "#{field} = $#{index + 1}"
@@ -157,6 +172,7 @@ put '/usuario/:id' do
   end
 end
 
+# Endpoint para eliminar un usuario
 delete '/usuario/:id' do
   id = params[:id].to_i
   result = db_connection.exec_params(
@@ -172,17 +188,19 @@ delete '/usuario/:id' do
   end
 end
 
-# Manejo de errores
+# Manejo de errores de base de datos
 error PG::Error do
   status 500
   { error: 'Error de base de datos', details: env['sinatra.error'].message }.to_json
 end
 
+# Manejo de errores al parsear JSON mal formado
 error JSON::ParserError do
   status 400
   { error: 'JSON mal formado' }.to_json
 end
 
+# Manejo de rutas no encontradas
 not_found do
   { error: 'Ruta no encontrada' }.to_json
 end
