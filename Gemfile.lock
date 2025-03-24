@@ -26,8 +26,6 @@ GEM
     rack-session (2.1.0)
       base64 (>= 0.1.0)
       rack (>= 3.0.0)
-    rackup (2.2.1)
-      rack (>= 3)
     rspec (3.13.0)
       rspec-core (~> 3.13.0)
       rspec-expectations (~> 3.13.0)
@@ -52,7 +50,6 @@ GEM
     tilt (2.6.0)
 
 PLATFORMS
-  x64-mingw-ucrt
   x86_64-linux
 
 DEPENDENCIES
@@ -61,7 +58,6 @@ DEPENDENCIES
   pry (= 0.15.2)
   puma (= 6.6.0)
   rack-attack (= 6.7.0)
-  rackup
   rspec (= 3.13.0)
   sinatra (= 4.1.1)
 
