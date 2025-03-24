@@ -1,3 +1,4 @@
 ---
 BUNDLE_DEPLOYMENT: "true"
 BUNDLE_FROZEN: "false"
+BUNDLE_WITHOUT: "development:test"
