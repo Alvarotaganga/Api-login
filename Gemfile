@@ -4,7 +4,8 @@ ruby '3.4.2'
 # Gemas esenciales para producción
 gem 'sinatra', '~> 4.1.1'
 gem 'pg', '~> 1.5.9', '>= 1.5.3'  # PostgreSQL (con versión mínima segura)
-gem 'puma', '~> 6.6.0'            # Servidor web de producción
+gem 'puma', '~> 6.6.0'  # Servidor web para producción
+gem 'rackup', '~> 2.1'  # Middleware necesario          # Servidor web de producción
 gem 'bcrypt', '~> 3.1.7'          # Hashing de contraseñas (¡CRÍTICO!)
 gem 'rack', '~> 3.0'              # Middleware esencial
 gem 'rack-protection', '~> 4.1.0' # Seguridad contra ataques web
