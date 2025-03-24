@@ -1,3 +1,7 @@
+ENV['BUNDLE_PATH'] = '/opt/render/project/.gems'
+
+require './config/environment'
+
 require 'sinatra'
 require 'pg'
 require 'json'
