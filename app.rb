@@ -55,6 +55,36 @@ def valid_email?(email)
   email =~ /\A[\w+\-.]+@[a-z\d\-]+(\.[a-z]+)*\.[a-z]+\z/i
 end
 
+# Endpoint para verificar si el correo electrónico ya está registrado
+post '/usuario/verificar-email' do
+  data = JSON.parse(request.body.read)
+  
+  # Validar que el correo electrónico esté presente
+  if data['email'].to_s.empty?
+    status 400
+    return { error: 'El correo electrónico es requerido' }.to_json
+  end
+  
+  # Validar formato de email
+  unless valid_email?(data['email'])
+    status 400
+    return { error: 'Formato de email inválido' }.to_json
+  end
+
+  # Buscar si el correo electrónico ya existe
+  result = db_connection.exec_params(
+    'SELECT email FROM usuarios WHERE email = $1', [data['email']]
+  )
+
+  if result.ntuples > 0
+    # Si el correo existe, devolver que ya está registrado
+    { emailExists: true }.to_json
+  else
+    # Si el correo no existe, devolver que está disponible
+    { emailExists: false }.to_json
+  end
+end
+
 # Endpoint para obtener todos los usuarios
 get '/usuarios' do
   users = db_connection.exec('SELECT id, nombre, email, fecha_registro FROM usuarios')
